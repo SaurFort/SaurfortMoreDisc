@@ -1,0 +1,71 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "moredisc:mii_challenge"
+    ]
+  },
+  "criteria": {
+    "has_blue": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:blue_dye"
+            ]
+          }
+        ]
+      }
+    },
+    "has_iron": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:ingots/iron"
+          }
+        ]
+      }
+    },
+    "has_white": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:white_dye"
+            ]
+          }
+        ]
+      }
+    },
+    "has_light_blue": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:light_blue_dye"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "moredisc:mii_challenge"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_blue",
+      "has_iron",
+      "has_white",
+      "has_light_blue",
+      "has_the_recipe"
+    ]
+  ]
+}

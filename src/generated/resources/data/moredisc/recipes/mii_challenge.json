@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BIL",
+    "IWI",
+    "LIB"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:blue_dye"
+    },
+    "I": {
+      "tag": "forge:ingots/iron"
+    },
+    "W": {
+      "item": "minecraft:white_dye"
+    },
+    "L": {
+      "item": "minecraft:light_blue_dye"
+    }
+  },
+  "result": {
+    "item": "moredisc:mii_challenge"
+  }
+}

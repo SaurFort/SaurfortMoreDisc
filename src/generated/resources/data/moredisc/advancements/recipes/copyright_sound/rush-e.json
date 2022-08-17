@@ -1,0 +1,47 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "moredisc:rush-e"
+    ]
+  },
+  "criteria": {
+    "has_concrete": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:black_concrete"
+            ]
+          }
+        ]
+      }
+    },
+    "has_disc13": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_13"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "moredisc:rush-e"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_concrete",
+      "has_disc13",
+      "has_the_recipe"
+    ]
+  ]
+}

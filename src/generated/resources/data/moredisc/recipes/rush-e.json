@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "CCD",
+    "CCC"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:black_concrete"
+    },
+    "D": {
+      "item": "minecraft:music_disc_13"
+    }
+  },
+  "result": {
+    "item": "moredisc:rush-e"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "item.moredisc.bot_fight": "Combat de Robot",
+  "item.moredisc.bot_fight.desc": "Everen Maxwell - Bot Fight",
+
+  "item.moredisc.mario_theme_song": "Musique de thème de Mario",
+  "item.moredisc.mario_theme_song.desc": "Alexion300 - Mario theme song (noteblock)",
+
+  "item.moredisc.darkness": "Ténèbrres",
+  "item.moredisc.darkness.desc": "Lost Sky x She Is Jules - Darkness",
+
+  "item.moredisc.heart_afire": "Le cœur en feu (Ne fonctionne pas)",
+  "item.moredisc.heart_afire.desc": "Defqwop - Heart Afire",
+
+  "item.moredisc.jingle_bell": "Jingle Bell",
+  "item.moredisc.jingle_bell.desc": "Alexion300 - Jingle Bell (noteblock)",
+
+
+  "item.moredisc.univers_sora":  "L'univers de Sora",
+  "item.moredisc.univers_sora.desc": "Tai et Sacha - L'univers de Sora",
+
+  "item.moredisc.chaussures_rouges": "Chaussures Rouges",
+  "item.moredisc.chaussures_rouges.desc": "Deo Toons (Clown) - Chaussures rouges",
+
+  "item.moredisc.rush-e": "Rush E",
+  "item.moredisc.rush-e.desc": "Sheet Music Boss - Rush E",
+
+  "item.moredisc.on_mappel_fuze": "On m'appel Fuze III",
+  "item.moredisc.on_mappel_fuze.desc": "Fuze III - On m'appel Fuze III",
+
+  "item.moredisc.roulette_paladienne": "C'est la roulette paladiennes",
+  "item.moredisc.roulette_paladienne.desc": "Fuze III - C'est la roulette paladiennes",
+
+  "item.moredisc.mii_challenge": "MII Challenge",
+  "item.moredisc.mii_challenge.desc": "Fuze III - MII Challenge",
+
+  "item.moredisc.anti-fuze": "Le clash des anti-fuze",
+  "item.moredisc.anti-fuze.desc": "Fuze III - Le clash des anti-fuze",
+
+  "item.moredisc.clash_kumiz": "Kumiz",
+  "item.moredisc.clash_kumiz.desc": "Fuze III - Kumiz",
+
+  "item.moredisc.somebody_like_me": "Quelqu'un comme moi",
+  "item.moredisc.somebody_like_me.desc": "JJD & Division One - Somebody Like Me",
+
+  "item.moredisc.why_do_i": "Pourquoi le ferais-je ?",
+  "item.moredisc.why_do_i.desc": "Unknow Brain - Why do I?",
+
+
+  "itemGroup.copyright_sound": "Musique avec droit d'auteurs",
+  "itemGroup.no_copyright_sound": "Musique libre de droit"
+}

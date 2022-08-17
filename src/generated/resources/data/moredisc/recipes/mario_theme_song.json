@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RIR",
+    "ISI",
+    "RIR"
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:rabbit_foot"
+    },
+    "I": {
+      "tag": "forge:ingots/iron"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "result": {
+    "item": "moredisc:mario_theme_song"
+  }
+}

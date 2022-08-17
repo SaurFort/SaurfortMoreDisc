@@ -1,0 +1,47 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "moredisc:anti-fuze"
+    ]
+  },
+  "criteria": {
+    "has_disc": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "moredisc:on_mappel_fuze"
+            ]
+          }
+        ]
+      }
+    },
+    "has_iron_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_sword"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "moredisc:anti-fuze"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_disc",
+      "has_iron_sword",
+      "has_the_recipe"
+    ]
+  ]
+}

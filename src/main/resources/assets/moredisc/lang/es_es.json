@@ -1,0 +1,51 @@
+{
+  "item.moredisc.bot_fight": "Lucha de bots",
+  "item.moredisc.bot_fight.desc": "Everen Maxwell - Bot Fight",
+
+  "item.moredisc.mario_theme_song": "Tema de Mario (noteblock)",
+  "item.moredisc.mario_theme_song.desc": "Alexion300 - Mario theme song (noteblock)",
+
+  "item.moredisc.darkness": "Oscuridad",
+  "item.moredisc.darkness.desc": "Lost Sky x She Is Jules - Darkness",
+
+  "item.moredisc.heart_afire": "Corazón en llamas (Don't work)",
+  "item.moredisc.heart_afire.desc": "Defqwop - Heart Afire",
+
+  "item.moredisc.jingle_bell": "Jingle Bell",
+  "item.moredisc.jingle_bell.desc": "Alexion300 - Jingle Bell (noteblock)",
+
+
+  "item.moredisc.univers_sora":  "El universo de Sora",
+  "item.moredisc.univers_sora.desc": "Tai y Sacha - L'univers de Sora",
+
+  "item.moredisc.chaussures_rouges": "Zapatos rojos",
+  "item.moredisc.chaussures_rouges.desc": "Deo Toons (Clown) - Chaussures rouges",
+
+  "item.moredisc.rush-e": "Rush E",
+  "item.moredisc.rush-e.desc": "Sheet Music Boss - Rush E",
+
+  "item.moredisc.on_mappel_fuze": "Me llamo Fuze III",
+  "item.moredisc.on_mappel_fuze.desc": "Fuze III - On m'appel Fuze III",
+
+  "item.moredisc.roulette_paladienne": "Esta es la ruleta paladina",
+  "item.moredisc.roulette_paladienne.desc": "Fuze III - C'est la roulette paladiennes",
+
+  "item.moredisc.mii_challenge": "MII Desafío",
+  "item.moredisc.mii_challenge.desc": "Fuze III - MII Challenge",
+
+  "item.moredisc.anti-fuze": "El choque de los anti-fuze",
+  "item.moredisc.anti-fuze.desc": "Fuze III - Le clash des anti-fuze",
+
+  "item.moredisc.clash_kumiz": "Kumiz",
+  "item.moredisc.clash_kumiz.desc": "Fuze III - Kumiz",
+
+  "item.moredisc.somebody_like_me": "Alguien como yo",
+  "item.moredisc.somebody_like_me.desc": "JJD & Division One - Somebody Like Me",
+
+  "item.moredisc.why_do_i": "¿Por qué lo hago?",
+  "item.moredisc.why_do_i.desc": "Unknow Brain - Why do I?",
+
+
+  "itemGroup.copyright_sound": "Copyright Sound",
+  "itemGroup.no_copyright_sound": "Sin sonido de derechos de autor"
+}

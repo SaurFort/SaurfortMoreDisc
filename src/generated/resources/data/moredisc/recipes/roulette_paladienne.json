@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MLP",
+    "ODC",
+    "YRB"
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:magenta_concrete"
+    },
+    "L": {
+      "item": "minecraft:lime_concrete"
+    },
+    "P": {
+      "item": "minecraft:pink_concrete"
+    },
+    "O": {
+      "item": "minecraft:orange_concrete"
+    },
+    "D": {
+      "item": "minecraft:music_disc_strad"
+    },
+    "C": {
+      "item": "minecraft:cyan_concrete"
+    },
+    "Y": {
+      "item": "minecraft:yellow_concrete"
+    },
+    "R": {
+      "item": "minecraft:red_concrete"
+    },
+    "B": {
+      "item": "minecraft:blue_concrete"
+    }
+  },
+  "result": {
+    "item": "moredisc:roulette_paladienne"
+  }
+}
