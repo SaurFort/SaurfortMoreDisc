@@ -1,6 +1,7 @@
 package fr.saurfort.moredisc;
 
 import fr.saurfort.moredisc.item.ModItem;
+import fr.saurfort.moredisc.item.ModItemCraft;
 import fr.saurfort.moredisc.item.ModItemTabs;
 import fr.saurfort.moredisc.sound.ModSounds;
 import net.minecraft.data.DataGenerator;
@@ -23,6 +24,7 @@ public class MoreDisc {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItem.register(eventBus);
+        ModItemCraft.register(eventBus);
         ModItemTabs.register(eventBus);
         ModSounds.register(eventBus);
 
@@ -38,7 +40,6 @@ public class MoreDisc {
 
     private void onClientSetup(FMLClientSetupEvent event) {
         //event.enqueueWork(ClientHandler::new);
-        System.out.println("Thanks for play with Saurfort's MoreDisc");
     }
 
     private void onGatherData(GatherDataEvent event) {

@@ -5,14 +5,23 @@
   "item.moredisc.mario_theme_song": "Musique de thème de Mario",
   "item.moredisc.mario_theme_song.desc": "Alexion300 - Mario theme song (noteblock)",
 
-  "item.moredisc.darkness": "Ténèbrres",
-  "item.moredisc.darkness.desc": "Lost Sky x She Is Jules - Darkness",
+  "item.moredisc.gravity_falls": "Gravity Falls",
+  "item.moredisc.gravity_falls.desc": "Alexion - Gravity Falls (noteblock)",
 
-  "item.moredisc.heart_afire": "Le cœur en feu (Ne fonctionne pas)",
-  "item.moredisc.heart_afire.desc": "Defqwop - Heart Afire",
+  "item.moredisc.darkness": "Ténèbres",
+  "item.moredisc.darkness.desc": "Lost Sky x She Is Jules - Darkness",
 
   "item.moredisc.jingle_bell": "Jingle Bell",
   "item.moredisc.jingle_bell.desc": "Alexion300 - Jingle Bell (noteblock)",
+
+  "item.moredisc.the_storm": "La tempête",
+  "item.moredisc.the_storm.desc": "TheFatRat & Maisy Kay - The Storm",
+
+  "item.moredisc.minecon_22": "Minecraft direct 2022",
+  "item.moredisc.minecon_22.desc": "Minecraft - Minecraft Live 2022",
+
+  "item.moredisc.one_trillion": "Un trillion de vues",
+  "item.moredisc.one_trillion.desc": "YouTube - One trillion views",
 
 
   "item.moredisc.univers_sora":  "L'univers de Sora",

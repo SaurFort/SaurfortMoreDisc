@@ -15,17 +15,17 @@ import net.minecraftforge.registries.RegistryObject;
 public class ModItem {
     public static final DeferredRegister<Item> DISC = DeferredRegister.create(ForgeRegistries.ITEMS, Reference.MOD_ID);
     // NCS
-        // Defqwoq
-    public static final RegistryObject<Item> HEART_AFIRE = DISC.register("heart_afire", () -> new RecordItem(4, ModSounds.HEART_AFIRE, new Item.Properties().tab(ModTabs.NoCopyrightSound).stacksTo(1).rarity(Rarity.RARE)));
-
         // Everen Maxwell
     public static final RegistryObject<Item> BOT_FIGHT = DISC.register("bot_fight", () -> new RecordItem(4, ModSounds.BOT_FIGHT, new Item.Properties().tab(ModTabs.NoCopyrightSound).stacksTo(1).rarity(Rarity.RARE)));
 
         // JJD & Division One
     public static final RegistryObject<Item> SOMEBODY_LIKE_ME = DISC.register("somebody_like_me", () -> new RecordItem(4, ModSounds.SOMEBODY_LIKE_ME, new Item.Properties().tab(ModTabs.NoCopyrightSound).stacksTo(1).rarity(Rarity.RARE)));
 
-        //Lost Sky x She Is Jules
+        //  Lost Sky x She Is Jules
     public static final RegistryObject<Item> DARKNESS = DISC.register("darkness", () -> new RecordItem(4, ModSounds.DARKNESS, new Item.Properties().tab(ModTabs.NoCopyrightSound).stacksTo(1).rarity(Rarity.EPIC)));
+
+        // TheFatRat & Maisy Kay
+    public static final RegistryObject<Item> THE_STORM = DISC.register("the_storm", () -> new RecordItem(4, ModSounds.THE_STORM, new Item.Properties().tab(ModTabs.NoCopyrightSound).stacksTo(1).rarity(Rarity.RARE)));
 
         // Unknown Brain
     public static final RegistryObject<Item> WHY_DO_I = DISC.register("why_do_i", () -> new RecordItem(4, ModSounds.WHY_DO_I, new Item.Properties().tab(ModTabs.NoCopyrightSound).stacksTo(1).rarity(Rarity.RARE)));
@@ -33,6 +33,13 @@ public class ModItem {
         // Alexion300
     public static final RegistryObject<Item> MARIO_THEME = DISC.register("mario_theme_song", () -> new RecordItem(4, ModSounds.MARIO_THEME, new Item.Properties().tab(ModTabs.NoCopyrightSound).stacksTo(1).rarity(Rarity.EPIC)));
     public static final RegistryObject<Item> JINGLE_BELL = DISC.register("jingle_bell", () -> new RecordItem(4, ModSounds.JINGLE_BELL, new Item.Properties().tab(ModTabs.NoCopyrightSound).stacksTo(1).rarity(Rarity.RARE)));
+    public static final RegistryObject<Item> GRAVITY_FALLS = DISC.register("gravity_falls", () -> new RecordItem(4, ModSounds.GRAVITY_FALLS, new Item.Properties().tab(ModTabs.NoCopyrightSound).stacksTo(1).rarity(Rarity.EPIC)));
+
+        // Minecraft
+    public static final RegistryObject<Item> MINECON_22 = DISC.register("minecon_22", () -> new RecordItem(4, ModSounds.MINECON_22, new Item.Properties().tab(ModTabs.NoCopyrightSound).stacksTo(1).rarity(Rarity.RARE)));
+
+        // YouTube
+    public static final RegistryObject<Item> ONE_TRILLION = DISC.register("one_trillion", () -> new RecordItem(4, ModSounds.ONE_TRILLION, new Item.Properties().tab(ModTabs.NoCopyrightSound).stacksTo(1).rarity(Rarity.EPIC)));
 
 
     // CS
