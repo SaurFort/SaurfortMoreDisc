@@ -1,19 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "RIR",
-    "ISI",
-    "RIR"
+    "RBR",
+    "BDB",
+    "RBR"
   ],
   "key": {
     "R": {
       "item": "minecraft:rabbit_foot"
     },
-    "I": {
-      "tag": "forge:ingots/iron"
+    "D": {
+      "item": "moredisc:blank_disc"
     },
-    "S": {
-      "item": "minecraft:sugar"
+    "B": {
+      "item": "minecraft:brick"
     }
   },
   "result": {

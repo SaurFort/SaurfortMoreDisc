@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "moredisc:roulette_paladienne"
+      "moredisc:mort_avec_toi"
     ]
   },
   "criteria": {
@@ -21,7 +21,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "moredisc:roulette_paladienne"
+        "recipe": "moredisc:mort_avec_toi"
       }
     }
   },

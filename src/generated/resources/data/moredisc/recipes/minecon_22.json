@@ -2,13 +2,13 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:player_head"
+      "item": "moredisc:blank_disc"
     },
     {
-      "item": "moredisc:blank_disc"
+      "item": "minecraft:red_dye"
     }
   ],
   "result": {
-    "item": "moredisc:on_mappel_fuze"
+    "item": "moredisc:minecon_22"
   }
 }

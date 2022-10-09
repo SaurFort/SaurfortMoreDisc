@@ -89,6 +89,15 @@
       }
     ]
   },
+  "disc.mort_avec_toi": {
+    "sounds": [
+      {
+        "name": "moredisc:mort_avec_toi",
+        "volume": 0.50,
+        "stream": true
+      }
+    ]
+  },
   "disc.on_mappel_fuze": {
     "sounds": [
       {

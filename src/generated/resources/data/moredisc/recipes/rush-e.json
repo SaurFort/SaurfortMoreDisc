@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "CCC",
-    "CCD",
+    "DC ",
     "CCC"
   ],
   "key": {
@@ -10,7 +10,7 @@
       "item": "minecraft:black_concrete"
     },
     "D": {
-      "item": "minecraft:music_disc_13"
+      "item": "moredisc:blank_disc"
     }
   },
   "result": {

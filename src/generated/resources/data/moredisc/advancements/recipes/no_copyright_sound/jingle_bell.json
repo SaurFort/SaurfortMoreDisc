@@ -6,23 +6,13 @@
     ]
   },
   "criteria": {
-    "has_iron": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "tag": "forge:ingots/iron"
-          }
-        ]
-      }
-    },
-    "has_sapling": {
+    "has_disc": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:spruce_sapling"
+              "moredisc:blank_disc"
             ]
           }
         ]
@@ -37,8 +27,7 @@
   },
   "requirements": [
     [
-      "has_iron",
-      "has_sapling",
+      "has_disc",
       "has_the_recipe"
     ]
   ]

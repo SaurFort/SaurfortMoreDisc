@@ -59,6 +59,9 @@ public class ModItem {
         // Sheet Music Boss
     public static final RegistryObject<Item> RUSH_E = DISC.register("rush-e", () -> new RecordItem(4, ModSounds.RUSH_E, new Item.Properties().tab(ModTabs.CopyrightSound).stacksTo(1).rarity(Rarity.EPIC)));
 
+        // Gargäntua
+    public static final RegistryObject<Item> MORT_AVEC_TOI = DISC.register("mort_avec_toi", () -> new RecordItem(4, ModSounds.MORT_AVEC_TOI, new Item.Properties().tab(ModTabs.CopyrightSound).stacksTo(1).rarity(Rarity.RARE)));
+
 
     public static void register(IEventBus eventBus) {
         DISC.register(eventBus);

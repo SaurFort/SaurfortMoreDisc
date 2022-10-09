@@ -47,6 +47,12 @@ public class RecipeGenerator extends RecipeProvider {
                 .unlockedBy("has_disc", has(ModItemCraft.BLANK_DISC.get()))
                 .save(consumer);
 
+        ShapelessRecipeBuilder.shapeless(ModItem.MORT_AVEC_TOI.get())
+                .requires(ModItemCraft.BLANK_DISC.get())
+                .requires(Items.SKELETON_SKULL)
+                .unlockedBy("has_disc", has(ModItemCraft.BLANK_DISC.get()))
+                .save(consumer);
+
         ShapelessRecipeBuilder.shapeless(ModItem.ON_APPEL_FUZE.get())
                 .requires(Items.PLAYER_HEAD)
                 .requires(ModItemCraft.BLANK_DISC.get())
@@ -79,9 +85,8 @@ public class RecipeGenerator extends RecipeProvider {
                 .pattern(" V ")
                 .define('V', ModItemCraft.VINYL.get())
                 .define('I', Tags.Items.INGOTS_IRON)
-                .unlockedBy("has_vynil", has(ModItemCraft.BLANK_DISC.get()))
+                .unlockedBy("has_vinyl", has(ModItemCraft.VINYL.get()))
                 .save(consumer);
-
 
         ShapedRecipeBuilder.shaped(ModItem.BOT_FIGHT.get())
                 .pattern(" I ")
@@ -113,9 +118,6 @@ public class RecipeGenerator extends RecipeProvider {
                 .define('C', ModItemCraft.BOOK_3.get())
                 .define('D', ModItemCraft.BLANK_DISC.get())
                 .unlockedBy("has_disc", has(ModItemCraft.BLANK_DISC.get()))
-                .unlockedBy("has_book_1", has(ModItemCraft.BOOK_1.get()))
-                .unlockedBy("has_book_2", has(ModItemCraft.BOOK_2.get()))
-                .unlockedBy("has_book_3", has(ModItemCraft.BOOK_3.get()))
                 .save(consumer);
 
         ShapedRecipeBuilder.shaped(ModItem.JINGLE_BELL.get())
@@ -139,9 +141,9 @@ public class RecipeGenerator extends RecipeProvider {
                 .save(consumer);
 
         ShapedRecipeBuilder.shaped(ModItem.MII_CHALLENGE.get())
-                .pattern("BIL")
-                .pattern("WDW")
-                .pattern("LIB")
+                .pattern("WBL")
+                .pattern("BDB")
+                .pattern("LBW")
                 .define('B', Items.BLUE_DYE)
                 .define('D', ModItemCraft.BLANK_DISC.get())
                 .define('W', Items.WHITE_DYE)

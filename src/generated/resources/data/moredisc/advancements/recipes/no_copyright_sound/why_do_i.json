@@ -6,23 +6,37 @@
     ]
   },
   "criteria": {
-    "has_iron": {
+    "has_concrete_white": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "tag": "forge:ingots/iron"
+            "items": [
+              "minecraft:white_concrete"
+            ]
           }
         ]
       }
     },
-    "has_concrete": {
+    "has_concrete_black": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
               "minecraft:black_concrete"
+            ]
+          }
+        ]
+      }
+    },
+    "has_blank_disc": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "moredisc:blank_disc"
             ]
           }
         ]
@@ -37,8 +51,9 @@
   },
   "requirements": [
     [
-      "has_iron",
-      "has_concrete",
+      "has_concrete_white",
+      "has_concrete_black",
+      "has_blank_disc",
       "has_the_recipe"
     ]
   ]

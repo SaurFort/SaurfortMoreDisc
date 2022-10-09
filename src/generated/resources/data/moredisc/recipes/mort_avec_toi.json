@@ -5,13 +5,10 @@
       "item": "moredisc:blank_disc"
     },
     {
-      "item": "minecraft:red_dye"
-    },
-    {
-      "item": "minecraft:leather_boots"
+      "item": "minecraft:skeleton_skull"
     }
   ],
   "result": {
-    "item": "moredisc:chaussures_rouges"
+    "item": "moredisc:mort_avec_toi"
   }
 }

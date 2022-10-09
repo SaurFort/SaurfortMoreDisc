@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "NIG",
-    "IHI",
+    "IBI",
     "GIN"
   ],
   "key": {
@@ -15,8 +15,8 @@
     "G": {
       "item": "minecraft:ghast_tear"
     },
-    "H": {
-      "item": "minecraft:player_head"
+    "B": {
+      "item": "moredisc:blank_disc"
     }
   },
   "result": {

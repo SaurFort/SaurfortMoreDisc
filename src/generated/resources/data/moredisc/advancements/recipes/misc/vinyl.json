@@ -2,18 +2,16 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "moredisc:roulette_paladienne"
+      "moredisc:vinyl"
     ]
   },
   "criteria": {
-    "has_disc": {
+    "has_iron": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": [
-              "moredisc:blank_disc"
-            ]
+            "tag": "forge:nuggets/iron"
           }
         ]
       }
@@ -21,13 +19,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "moredisc:roulette_paladienne"
+        "recipe": "moredisc:vinyl"
       }
     }
   },
   "requirements": [
     [
-      "has_disc",
+      "has_iron",
       "has_the_recipe"
     ]
   ]

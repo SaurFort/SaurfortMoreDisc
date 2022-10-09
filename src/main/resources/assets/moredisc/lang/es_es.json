@@ -23,6 +23,12 @@
   "item.moredisc.one_trillion": "Un billón de visitas",
   "item.moredisc.one_trillion.desc": "YouTube - One trillion views",
 
+  "item.moredisc.somebody_like_me": "Alguien como yo",
+  "item.moredisc.somebody_like_me.desc": "JJD & Division One - Somebody Like Me",
+
+  "item.moredisc.why_do_i": "¿Por qué lo hago?",
+  "item.moredisc.why_do_i.desc": "Unknow Brain - Why do I?",
+
 
   "item.moredisc.univers_sora":  "El universo de Sora",
   "item.moredisc.univers_sora.desc": "Tai y Sacha - L'univers de Sora",
@@ -48,12 +54,15 @@
   "item.moredisc.clash_kumiz": "Kumiz",
   "item.moredisc.clash_kumiz.desc": "Fuze III - Kumiz",
 
-  "item.moredisc.somebody_like_me": "Alguien como yo",
-  "item.moredisc.somebody_like_me.desc": "JJD & Division One - Somebody Like Me",
+  "item.moredisc.mort_avec_toi": "La muerte contigo",
+  "item.moredisc.mort_avec_toi.desc": "GARGÄNTUA - La mort avec toi",
 
-  "item.moredisc.why_do_i": "¿Por qué lo hago?",
-  "item.moredisc.why_do_i.desc": "Unknow Brain - Why do I?",
 
+  "item.moredisc.vinyl": "Pedazo de vinilo",
+  "item.moredisc.blank_disc": "Disco en blanco",
+  "item.moredisc.book_1": "Gravity Falls Libro 1",
+  "item.moredisc.book_2": "Gravity Falls Libro 2",
+  "item.moredisc.book_3": "Gravity Falls Libro 3",
 
   "itemGroup.copyright_sound": "Copyright Sound",
   "itemGroup.no_copyright_sound": "Sin sonido de derechos de autor"

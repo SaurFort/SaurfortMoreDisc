@@ -2,17 +2,17 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "moredisc:roulette_paladienne"
+      "moredisc:blank_disc"
     ]
   },
   "criteria": {
-    "has_disc": {
+    "has_vinyl": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "moredisc:blank_disc"
+              "moredisc:vinyl"
             ]
           }
         ]
@@ -21,13 +21,13 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "moredisc:roulette_paladienne"
+        "recipe": "moredisc:blank_disc"
       }
     }
   },
   "requirements": [
     [
-      "has_disc",
+      "has_vinyl",
       "has_the_recipe"
     ]
   ]

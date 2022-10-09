@@ -6,22 +6,14 @@
     ]
   },
   "criteria": {
-    "has_nether_stars": {
+    "has_disc": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "tag": "forge:nether_stars"
-          }
-        ]
-      }
-    },
-    "has_iron": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "tag": "forge:ingots/iron"
+            "items": [
+              "moredisc:blank_disc"
+            ]
           }
         ]
       }
@@ -35,8 +27,7 @@
   },
   "requirements": [
     [
-      "has_nether_stars",
-      "has_iron",
+      "has_disc",
       "has_the_recipe"
     ]
   ]

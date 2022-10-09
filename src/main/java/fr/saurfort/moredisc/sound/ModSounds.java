@@ -1,8 +1,6 @@
 package fr.saurfort.moredisc.sound;
 
-import fr.saurfort.moredisc.MoreDisc;
 import fr.saurfort.moredisc.Reference;
-import net.minecraft.client.resources.sounds.Sound;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -23,6 +21,7 @@ public class ModSounds {
     public static final RegistryObject<SoundEvent> MARIO_THEME = SOUNDS.register("disc.mariotheme", () -> new SoundEvent(new ResourceLocation(Reference.MOD_ID, "disc.mariotheme")));
     public static final RegistryObject<SoundEvent> MII_CHALLENGE = SOUNDS.register("disc.mii_challenge", () -> new SoundEvent(new ResourceLocation(Reference.MOD_ID, "disc.mii_challenge")));
     public static final RegistryObject<SoundEvent> MINECON_22 = SOUNDS.register("disc.minecon_22", () -> new SoundEvent(new ResourceLocation(Reference.MOD_ID, "disc.minecon_22")));
+    public static final RegistryObject<SoundEvent> MORT_AVEC_TOI = SOUNDS.register("disc.mort_avec_toi", () -> new SoundEvent(new ResourceLocation(Reference.MOD_ID, "disc.mort_avec_toi")));
     public static final RegistryObject<SoundEvent> ON_APPEL_FUZE = SOUNDS.register("disc.on_mappel_fuze", () -> new SoundEvent(new ResourceLocation(Reference.MOD_ID, "disc.on_mappel_fuze")));
     public static final RegistryObject<SoundEvent> ONE_TRILLION = SOUNDS.register("disc.one_trillion", () -> new SoundEvent(new ResourceLocation(Reference.MOD_ID, "disc.one_trillion")));
     public static final RegistryObject<SoundEvent> ROULETTE_PALADIENNES = SOUNDS.register("moredisc.roulette_paladiennes", () -> new SoundEvent(new ResourceLocation(Reference.MOD_ID, "disc.roulette_paladiennes")));

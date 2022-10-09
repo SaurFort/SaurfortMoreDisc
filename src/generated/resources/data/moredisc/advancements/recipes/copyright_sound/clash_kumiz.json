@@ -6,45 +6,13 @@
     ]
   },
   "criteria": {
-    "has_gold": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "tag": "forge:nuggets/gold"
-          }
-        ]
-      }
-    },
-    "has_iron": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "tag": "forge:ingots/iron"
-          }
-        ]
-      }
-    },
-    "has_tear": {
+    "has_disc": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:ghast_tear"
-            ]
-          }
-        ]
-      }
-    },
-    "has_head": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:player_head"
+              "moredisc:blank_disc"
             ]
           }
         ]
@@ -59,10 +27,7 @@
   },
   "requirements": [
     [
-      "has_gold",
-      "has_iron",
-      "has_tear",
-      "has_head",
+      "has_disc",
       "has_the_recipe"
     ]
   ]
