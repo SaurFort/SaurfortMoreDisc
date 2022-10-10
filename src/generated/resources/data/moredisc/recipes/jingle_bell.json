@@ -1,16 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " I ",
-    "ISI",
-    " I "
+    " L ",
+    "SBS",
+    " L "
   ],
   "key": {
-    "I": {
-      "tag": "forge:ingots/iron"
+    "B": {
+      "item": "moredisc:blank_disc"
     },
     "S": {
       "item": "minecraft:spruce_sapling"
+    },
+    "L": {
+      "item": "minecraft:spruce_log"
     }
   },
   "result": {

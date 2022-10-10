@@ -1,9 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "RIR",
     "RHR",
-    "IRI"
+    "RDR",
+    " R "
   ],
   "key": {
     "R": {
@@ -12,8 +12,8 @@
     "H": {
       "item": "minecraft:player_head"
     },
-    "I": {
-      "tag": "forge:ingots/iron"
+    "D": {
+      "item": "moredisc:blank_disc"
     }
   },
   "result": {

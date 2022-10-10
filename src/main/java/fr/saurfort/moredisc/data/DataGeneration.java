@@ -3,11 +3,12 @@ package fr.saurfort.moredisc.data;
 import fr.saurfort.moredisc.Reference;
 import fr.saurfort.moredisc.data.recipe.RecipeGenerator;
 import net.minecraft.data.DataGenerator;
+import net.minecraft.data.RecipeProvider;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.forge.event.lifecycle.GatherDataEvent;
+import net.minecraftforge.fml.event.lifecycle.GatherDataEvent;
 
-@Mod.EventBusSubscriber(modid = Reference.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD )
+@Mod.EventBusSubscriber(modid = Reference.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class DataGeneration {
     @SubscribeEvent
     public static void gatherData(final GatherDataEvent e) {

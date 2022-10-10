@@ -6,26 +6,12 @@
     ]
   },
   "criteria": {
-    "has_concrete": {
+    "has_disc": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:black_concrete"
-            ]
-          }
-        ]
-      }
-    },
-    "has_disc13": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:music_disc_13"
-            ]
+            "item": "moredisc:blank_disc"
           }
         ]
       }
@@ -39,8 +25,7 @@
   },
   "requirements": [
     [
-      "has_concrete",
-      "has_disc13",
+      "has_disc",
       "has_the_recipe"
     ]
   ]

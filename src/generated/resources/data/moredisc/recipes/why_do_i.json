@@ -1,16 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "III",
-    "BIB",
-    "III"
+    "CCC",
+    "BDB",
+    "CCC"
   ],
   "key": {
-    "I": {
-      "tag": "forge:ingots/iron"
+    "C": {
+      "item": "minecraft:white_concrete"
     },
     "B": {
       "item": "minecraft:black_concrete"
+    },
+    "D": {
+      "item": "moredisc:blank_disc"
     }
   },
   "result": {

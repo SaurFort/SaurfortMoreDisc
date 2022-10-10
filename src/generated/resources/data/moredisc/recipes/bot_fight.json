@@ -7,7 +7,7 @@
   ],
   "key": {
     "B": {
-      "item": "minecraft:iron_block"
+      "item": "moredisc:blank_disc"
     },
     "I": {
       "tag": "forge:ingots/iron"

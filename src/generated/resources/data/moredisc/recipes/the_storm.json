@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:heavy_weighted_pressure_plate"
+    },
+    {
+      "tag": "forge:ingots/iron"
+    },
+    {
+      "item": "moredisc:blank_disc"
+    }
+  ],
+  "result": {
+    "item": "moredisc:the_storm"
+  }
+}

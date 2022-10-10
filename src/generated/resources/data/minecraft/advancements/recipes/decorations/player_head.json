@@ -11,9 +11,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:zombie_head"
-            ]
+            "item": "minecraft:zombie_head"
           }
         ]
       }
@@ -23,9 +21,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:charcoal"
-            ]
+            "item": "minecraft:charcoal"
           }
         ]
       }

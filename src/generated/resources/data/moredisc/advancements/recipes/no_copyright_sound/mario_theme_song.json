@@ -6,36 +6,12 @@
     ]
   },
   "criteria": {
-    "has_rabbit_foot": {
+    "has_disc": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:rabbit_foot"
-            ]
-          }
-        ]
-      }
-    },
-    "has_iron": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "tag": "forge:ingots/iron"
-          }
-        ]
-      }
-    },
-    "has_sugar": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:sugar"
-            ]
+            "item": "moredisc:blank_disc"
           }
         ]
       }
@@ -49,9 +25,7 @@
   },
   "requirements": [
     [
-      "has_rabbit_foot",
-      "has_iron",
-      "has_sugar",
+      "has_disc",
       "has_the_recipe"
     ]
   ]

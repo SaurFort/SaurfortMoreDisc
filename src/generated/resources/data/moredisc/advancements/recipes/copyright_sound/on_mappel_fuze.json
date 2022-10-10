@@ -6,24 +6,12 @@
     ]
   },
   "criteria": {
-    "has_iron": {
+    "has_disc": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "tag": "forge:ingots/iron"
-          }
-        ]
-      }
-    },
-    "has_head": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:player_head"
-            ]
+            "item": "moredisc:blank_disc"
           }
         ]
       }
@@ -37,8 +25,7 @@
   },
   "requirements": [
     [
-      "has_iron",
-      "has_head",
+      "has_disc",
       "has_the_recipe"
     ]
   ]

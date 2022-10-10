@@ -6,24 +6,12 @@
     ]
   },
   "criteria": {
-    "has_iron": {
+    "has_disc": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "tag": "forge:ingots/iron"
-          }
-        ]
-      }
-    },
-    "has_boots": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:leather_boots"
-            ]
+            "item": "moredisc:blank_disc"
           }
         ]
       }
@@ -37,8 +25,7 @@
   },
   "requirements": [
     [
-      "has_iron",
-      "has_boots",
+      "has_disc",
       "has_the_recipe"
     ]
   ]

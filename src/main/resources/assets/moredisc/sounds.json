@@ -44,10 +44,10 @@
       }
     ]
   },
-  "disc.heart_afire": {
+  "disc.gravity_falls": {
     "sounds": [
       {
-        "name": "moredisc.heart_afire",
+        "name": "moredisc:gravity_falls",
         "volume": 0.50,
         "stream": true
       }
@@ -80,6 +80,24 @@
       }
     ]
   },
+  "disc.minecon_22": {
+    "sounds": [
+      {
+        "name": "moredisc:minecon_2022",
+        "volume": 0.50,
+        "stream": true
+      }
+    ]
+  },
+  "disc.mort_avec_toi": {
+    "sounds": [
+      {
+        "name": "moredisc:mort_avec_toi",
+        "volume": 0.50,
+        "stream": true
+      }
+    ]
+  },
   "disc.on_mappel_fuze": {
     "sounds": [
       {
@@ -88,6 +106,15 @@
         "stream": true
       }
     ]
+  },
+    "disc.one_trillion": {
+      "sounds": [
+        {
+          "name": "moredisc:one_trillion",
+          "volume": 0.50,
+          "stream": true
+        }
+      ]
   },
   "disc.roulette_paladiennes": {
     "sounds": [
@@ -111,6 +138,15 @@
     "sounds": [
       {
         "name": "moredisc:somebody_like_me",
+        "volume": 0.50,
+        "stream": true
+      }
+    ]
+  },
+  "disc.the_storm": {
+    "sounds": [
+      {
+        "name": "moredisc:the_storm",
         "volume": 0.50,
         "stream": true
       }

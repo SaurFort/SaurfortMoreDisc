@@ -1,18 +1,13 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    " I ",
-    "IHI",
-    " I "
-  ],
-  "key": {
-    "I": {
-      "tag": "forge:ingots/iron"
-    },
-    "H": {
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
       "item": "minecraft:player_head"
+    },
+    {
+      "item": "moredisc:blank_disc"
     }
-  },
+  ],
   "result": {
     "item": "moredisc:on_mappel_fuze"
   }

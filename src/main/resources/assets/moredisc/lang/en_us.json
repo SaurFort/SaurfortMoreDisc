@@ -5,14 +5,29 @@
   "item.moredisc.mario_theme_song": "Mario theme song (noteblock)",
   "item.moredisc.mario_theme_song.desc": "Alexion300 - Mario theme song (noteblock)",
 
+  "item.moredisc.gravity_falls": "Gravity Falls",
+  "item.moredisc.gravity_falls.desc": "Alexion - Gravity Falls (noteblock)",
+
   "item.moredisc.darkness": "Darkness",
   "item.moredisc.darkness.desc": "Lost Sky x She Is Jules - Darkness",
 
-  "item.moredisc.heart_afire": "Heart Afire (Don't work)",
-  "item.moredisc.heart_afire.desc": "Defqwop - Heart Afire",
-
   "item.moredisc.jingle_bell": "Jingle Bell",
   "item.moredisc.jingle_bell.desc": "Alexion300 - Jingle Bell (noteblock)",
+
+  "item.moredisc.the_storm": "The Storm",
+  "item.moredisc.the_storm.desc": "TheFatRat & Maisy Kay - The Storm",
+
+  "item.moredisc.minecon_22": "Minecraft Live 2022",
+  "item.moredisc.minecon_22.desc": "Minecraft - Minecraft Live 2022",
+
+  "item.moredisc.one_trillion": "One trillion views",
+  "item.moredisc.one_trillion.desc": "YouTube - One trillion views",
+
+  "item.moredisc.somebody_like_me": "Somebody Like Me",
+  "item.moredisc.somebody_like_me.desc": "JJD & Division One - Somebody Like Me",
+
+  "item.moredisc.why_do_i": "Why do I?",
+  "item.moredisc.why_do_i.desc": "Unknow Brain - Why do I?",
 
 
   "item.moredisc.univers_sora":  "The universe of Sora",
@@ -39,12 +54,15 @@
   "item.moredisc.clash_kumiz": "Kumiz",
   "item.moredisc.clash_kumiz.desc": "Fuze III - Kumiz",
 
-  "item.moredisc.somebody_like_me": "Somebody Like Me",
-  "item.moredisc.somebody_like_me.desc": "JJD & Division One - Somebody Like Me",
+  "item.moredisc.mort_avec_toi": "Death with you",
+  "item.moredisc.mort_avec_toi.desc": "GARGÄNTUA - La mort avec toi",
 
-  "item.moredisc.why_do_i": "Why do I?",
-  "item.moredisc.why_do_i.desc": "Unknow Brain - Why do I?",
 
+  "item.moredisc.vinyl": "Vinyl part",
+  "item.moredisc.blank_disc": "Empty disc",
+  "item.moredisc.book_1": "Gravity Falls Book 1",
+  "item.moredisc.book_2": "Gravity Falls Book 2",
+  "item.moredisc.book_3": "Gravity Falls Book 3",
 
   "itemGroup.copyright_sound": "Copyright Sound",
   "itemGroup.no_copyright_sound": "No Copyright Sound"

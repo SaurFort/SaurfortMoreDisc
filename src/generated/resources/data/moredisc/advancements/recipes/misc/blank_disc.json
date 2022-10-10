@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "moredisc:blank_disc"
+    ]
+  },
+  "criteria": {
+    "has_vinyl": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "moredisc:vinyl"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "moredisc:blank_disc"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_vinyl",
+      "has_the_recipe"
+    ]
+  ]
+}

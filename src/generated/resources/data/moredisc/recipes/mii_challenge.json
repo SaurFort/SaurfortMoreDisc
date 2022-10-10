@@ -1,16 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "BIL",
-    "IWI",
-    "LIB"
+    "WBL",
+    "BDB",
+    "LBW"
   ],
   "key": {
     "B": {
       "item": "minecraft:blue_dye"
     },
-    "I": {
-      "tag": "forge:ingots/iron"
+    "D": {
+      "item": "moredisc:blank_disc"
     },
     "W": {
       "item": "minecraft:white_dye"
