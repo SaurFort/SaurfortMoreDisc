@@ -1,15 +1,15 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "moredisc",
+  "name": "Saurfort's More Disc",
+  "description": "Developped by Saurfort",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
-  "logoFile": "",
+  "authorList": ["Saurfort"],
+  "credits": "This mod adds new music cd's that can't be obtained in survival for the moment. If you have a problem, recommendations or just want to discuss join the discord\nserver: https://discord.gg/BFeEXQamMF",
+  "logoFile": "moredisc.png",
   "screenshots": [],
   "dependencies": []
 }
