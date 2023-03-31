@@ -1,14 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    " P ",
-    " D ",
-    "ABC"
-  ],
   "key": {
-    "P": {
-      "item": "minecraft:porkchop"
-    },
     "A": {
       "item": "moredisc:book_1"
     },
@@ -20,8 +12,16 @@
     },
     "D": {
       "item": "moredisc:blank_disc"
+    },
+    "P": {
+      "item": "minecraft:porkchop"
     }
   },
+  "pattern": [
+    " P ",
+    " D ",
+    "ABC"
+  ],
   "result": {
     "item": "moredisc:gravity_falls"
   }

@@ -1,21 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
+  "key": {
+    "D": {
+      "item": "moredisc:blank_disc"
+    },
+    "H": {
+      "item": "minecraft:player_head"
+    },
+    "R": {
+      "item": "minecraft:red_concrete"
+    }
+  },
   "pattern": [
     "RHR",
     "RDR",
     " R "
   ],
-  "key": {
-    "R": {
-      "item": "minecraft:red_concrete"
-    },
-    "H": {
-      "item": "minecraft:player_head"
-    },
-    "D": {
-      "item": "moredisc:blank_disc"
-    }
-  },
   "result": {
     "item": "moredisc:somebody_like_me"
   }

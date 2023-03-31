@@ -1,21 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
+  "key": {
+    "B": {
+      "item": "minecraft:brick"
+    },
+    "D": {
+      "item": "moredisc:blank_disc"
+    },
+    "R": {
+      "item": "minecraft:rabbit_foot"
+    }
+  },
   "pattern": [
     "RBR",
     "BDB",
     "RBR"
   ],
-  "key": {
-    "R": {
-      "item": "minecraft:rabbit_foot"
-    },
-    "D": {
-      "item": "moredisc:blank_disc"
-    },
-    "B": {
-      "item": "minecraft:brick"
-    }
-  },
   "result": {
     "item": "moredisc:mario_theme_song"
   }

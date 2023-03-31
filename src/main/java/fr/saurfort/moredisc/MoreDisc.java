@@ -6,12 +6,12 @@ import fr.saurfort.moredisc.item.ModItemTabs;
 import fr.saurfort.moredisc.sound.ModSounds;
 import net.minecraft.data.DataGenerator;
 import net.minecraftforge.common.data.ExistingFileHelper;
+import net.minecraftforge.data.event.GatherDataEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.minecraftforge.forge.event.lifecycle.GatherDataEvent;
 
 import java.util.logging.LogManager;
 import java.util.logging.Logger;
@@ -35,15 +35,16 @@ public class MoreDisc {
 
     private void onCommonSetup(FMLCommonSetupEvent event) {
         //event.enqueueWork(CommonHandler::new);
-        System.out.println("Thanks for play with Saurfort's MoreDisc");
+        //LOGGER.info("Thanks for playing with Saurfort's MoreDisc");
     }
 
     private void onClientSetup(FMLClientSetupEvent event) {
         //event.enqueueWork(ClientHandler::new);
+        //LOGGER.info("Thanks for playing with Saurfort's MoreDisc");
     }
 
-    private void onGatherData(GatherDataEvent event) {
-        DataGenerator generator = event.getGenerator();
-        ExistingFileHelper existingFileHelper = event.getExistingFileHelper();
+    private void onGatherData(GatherDataEvent dataEvent) {
+        DataGenerator generator = dataEvent.getGenerator();
+        ExistingFileHelper existingFileHelper = dataEvent.getExistingFileHelper();
     }
 }

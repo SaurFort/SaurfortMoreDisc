@@ -1,21 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
+  "key": {
+    "B": {
+      "item": "moredisc:blank_disc"
+    },
+    "L": {
+      "item": "minecraft:spruce_log"
+    },
+    "S": {
+      "item": "minecraft:spruce_sapling"
+    }
+  },
   "pattern": [
     " L ",
     "SBS",
     " L "
   ],
-  "key": {
-    "B": {
-      "item": "moredisc:blank_disc"
-    },
-    "S": {
-      "item": "minecraft:spruce_sapling"
-    },
-    "L": {
-      "item": "minecraft:spruce_log"
-    }
-  },
   "result": {
     "item": "moredisc:jingle_bell"
   }

@@ -1,21 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "CCC",
-    "BDB",
-    "CCC"
-  ],
   "key": {
-    "C": {
-      "item": "minecraft:white_concrete"
-    },
     "B": {
       "item": "minecraft:black_concrete"
+    },
+    "C": {
+      "item": "minecraft:white_concrete"
     },
     "D": {
       "item": "moredisc:blank_disc"
     }
   },
+  "pattern": [
+    "CCC",
+    "BDB",
+    "CCC"
+  ],
   "result": {
     "item": "moredisc:why_do_i"
   }

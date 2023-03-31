@@ -1,10 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "WBL",
-    "BDB",
-    "LBW"
-  ],
   "key": {
     "B": {
       "item": "minecraft:blue_dye"
@@ -12,13 +7,18 @@
     "D": {
       "item": "moredisc:blank_disc"
     },
-    "W": {
-      "item": "minecraft:white_dye"
-    },
     "L": {
       "item": "minecraft:light_blue_dye"
+    },
+    "W": {
+      "item": "minecraft:white_dye"
     }
   },
+  "pattern": [
+    "WBL",
+    "BDB",
+    "LBW"
+  ],
   "result": {
     "item": "moredisc:mii_challenge"
   }
