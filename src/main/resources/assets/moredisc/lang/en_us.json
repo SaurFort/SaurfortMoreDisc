@@ -2,11 +2,14 @@
   "item.moredisc.bot_fight": "Bot Fight",
   "item.moredisc.bot_fight.desc": "Everen Maxwell - Bot Fight",
 
-  "item.moredisc.mario_theme_song": "Mario theme song (noteblock)",
-  "item.moredisc.mario_theme_song.desc": "Alexion300 - Mario theme song (noteblock)",
+  "item.moredisc.mario_theme_song": "Mario Theme",
+  "item.moredisc.mario_theme_song.desc": "Alexion300 - Mario Theme (noteblock)",
 
   "item.moredisc.gravity_falls": "Gravity Falls",
-  "item.moredisc.gravity_falls.desc": "Alexion - Gravity Falls (noteblock)",
+  "item.moredisc.gravity_falls.desc": "Alexion300 - Gravity Falls (noteblock)",
+
+  "item.moredisc.im_blue": "I'm Blue",
+  "item.moredisc.im_blue.desc": "Alexion300 - I'm Blue (noteblock)",
 
   "item.moredisc.darkness": "Darkness",
   "item.moredisc.darkness.desc": "Lost Sky x She Is Jules - Darkness",
@@ -23,8 +26,17 @@
   "item.moredisc.one_trillion": "One trillion views",
   "item.moredisc.one_trillion.desc": "YouTube - One trillion views",
 
+  "item.moredisc.simpson": "Simpson",
+  "item.moredisc.simspon.desc": "Alexion300 - Simpson (noteblock)",
+
   "item.moredisc.somebody_like_me": "Somebody Like Me",
   "item.moredisc.somebody_like_me.desc": "JJD & Division One - Somebody Like Me",
+
+  "item.moredisc.tetris": "Tetris 99",
+  "item.moredisc.tetris.desc": "Alexion300 - Tetris 99 Theme (noteblock)",
+
+  "item.moredisc.we_are_one": "We Are The Number One",
+  "item.moredisc.we_are_one.desc": "Alexion300 - We Are The Number One (noteblock)",
 
   "item.moredisc.why_do_i": "Why do I?",
   "item.moredisc.why_do_i.desc": "Unknow Brain - Why do I?",
