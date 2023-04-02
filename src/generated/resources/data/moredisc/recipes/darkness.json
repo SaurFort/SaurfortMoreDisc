@@ -3,7 +3,7 @@
   "cookingtime": 200,
   "experience": 0.1,
   "ingredient": {
-    "item": "minecraft:music_disc_11"
+    "item": "moredisc:blank_disc"
   },
   "result": "moredisc:darkness"
 }

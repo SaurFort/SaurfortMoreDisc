@@ -4,7 +4,7 @@ plugins {
     id 'net.minecraftforge.gradle' version '5.1.+'
 }
 
-version = '0.0.8 - beta'
+version = '0.0.9 - beta'
 group = 'fr.saurfort.moredisc' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'More Disc'
 

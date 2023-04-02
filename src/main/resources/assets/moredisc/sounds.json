@@ -53,6 +53,15 @@
       }
     ]
   },
+  "disc.im_blue": {
+    "sounds": [
+      {
+        "name": "moredisc:im_blue",
+        "volume": 0.50,
+        "stream": true
+      }
+    ]
+  },
   "disc.jingle_bell": {
     "sounds": [
       {
@@ -134,10 +143,28 @@
       }
     ]
   },
+  "disc.simpson": {
+    "sounds": [
+      {
+        "name": "moredisc:simpson",
+        "volume": 0.50,
+        "stream": true
+      }
+    ]
+  },
   "disc.somebody_like_me": {
     "sounds": [
       {
         "name": "moredisc:somebody_like_me",
+        "volume": 0.50,
+        "stream": true
+      }
+    ]
+  },
+  "disc.tetris": {
+    "sounds": [
+      {
+        "name": "moredisc:tetris",
         "volume": 0.50,
         "stream": true
       }
@@ -156,6 +183,15 @@
     "sounds": [
       {
         "name": "moredisc:univers_sora",
+        "volume": 0.50,
+        "stream": true
+      }
+    ]
+  },
+  "disc.we_are_one": {
+    "sounds": [
+      {
+        "name": "moredisc:we_are_one",
         "volume": 0.50,
         "stream": true
       }

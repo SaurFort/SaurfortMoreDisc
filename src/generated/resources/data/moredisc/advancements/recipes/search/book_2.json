@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_disc": {
+    "has_book": {
       "conditions": {
         "items": [
           {
             "items": [
-              "moredisc:blank_disc"
+              "minecraft:book"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "moredisc:darkness"
+        "recipe": "moredisc:book_2"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_disc",
+      "has_book",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "moredisc:darkness"
+      "moredisc:book_2"
     ]
   }
 }

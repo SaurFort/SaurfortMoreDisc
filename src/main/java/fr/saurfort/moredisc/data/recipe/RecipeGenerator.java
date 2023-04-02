@@ -27,6 +27,44 @@ public class RecipeGenerator extends RecipeProvider {
                 .unlockedBy("has_iron", has(Tags.Items.NUGGETS_IRON))
                 .save(consumer);
 
+        ShapelessRecipeBuilder.shapeless(Items.PLAYER_HEAD)
+                .requires(Items.ZOMBIE_HEAD)
+                .requires(Items.CHARCOAL)
+                .unlockedBy("has_head", has(Items.ZOMBIE_HEAD))
+                .unlockedBy("has_charcoal", has(Items.CHARCOAL))
+                .save(consumer);
+
+        ShapelessRecipeBuilder.shapeless(Items.ZOMBIE_HEAD)
+                .requires(Blocks.COAL_BLOCK)
+                .requires(Items.CHARCOAL)
+                .requires(ModItemCraft.BOOK_1.get())
+                .unlockedBy("has_book1", has(ModItemCraft.BOOK_1.get()))
+                .save(consumer);
+
+        ShapelessRecipeBuilder.shapeless(ModItemCraft.BOOK_1.get())
+                .requires(Items.BOOK)
+                .requires(Items.RED_DYE)
+                .requires(Items.YELLOW_DYE)
+                .requires(Blocks.OAK_LOG)
+                .unlockedBy("has_book", has(Items.BOOK))
+                .save(consumer);
+
+        ShapelessRecipeBuilder.shapeless(ModItemCraft.BOOK_2.get())
+                .requires(Items.BOOK)
+                .requires(Items.RED_DYE)
+                .requires(Items.YELLOW_DYE)
+                .requires(Blocks.NETHER_BRICKS)
+                .unlockedBy("has_book", has(Items.BOOK))
+                .save(consumer);
+
+        ShapelessRecipeBuilder.shapeless(ModItemCraft.BOOK_3.get())
+                .requires(Items.BOOK)
+                .requires(Items.RED_DYE)
+                .requires(Items.YELLOW_DYE)
+                .requires(Blocks.END_STONE)
+                .unlockedBy("has_book", has(Items.BOOK))
+                .save(consumer);
+
 
         ShapelessRecipeBuilder.shapeless(ModItem.ANTI_FUZE.get())
                 .requires(ModItem.ON_APPEL_FUZE.get())
@@ -44,6 +82,13 @@ public class RecipeGenerator extends RecipeProvider {
                 .requires(ModItemCraft.BLANK_DISC.get())
                 .requires(Items.RED_DYE)
                 .requires(Items.LEATHER_BOOTS)
+                .unlockedBy("has_disc", has(ModItemCraft.BLANK_DISC.get()))
+                .save(consumer);
+
+        ShapelessRecipeBuilder.shapeless(ModItem.IM_BLUE.get())
+                .requires(ModItemCraft.BLANK_DISC.get())
+                .requires(Blocks.BLUE_CONCRETE)
+                .requires(Blocks.CYAN_CONCRETE)
                 .unlockedBy("has_disc", has(ModItemCraft.BLANK_DISC.get()))
                 .save(consumer);
 
@@ -176,6 +221,16 @@ public class RecipeGenerator extends RecipeProvider {
                 .unlockedBy("has_disc", has(ModItemCraft.BLANK_DISC.get()))
                 .save(consumer);
 
+        ShapedRecipeBuilder.shaped(ModItem.SIMPSON.get())
+                .pattern(" S ")
+                .pattern("PDC")
+                .define('S', Items.CAKE)
+                .define('P', Items.PUMPKIN_PIE)
+                .define('D', ModItemCraft.BLANK_DISC.get())
+                .define('C', Items.COOKIE)
+                .unlockedBy("has_disc", has(ModItemCraft.BLANK_DISC.get()))
+                .save(consumer);
+
         ShapedRecipeBuilder.shaped(ModItem.SOMEBODY_LIKE_ME.get())
                 .pattern("RHR")
                 .pattern("RDR")
@@ -186,6 +241,20 @@ public class RecipeGenerator extends RecipeProvider {
                 .unlockedBy("has_disc", has(ModItemCraft.BLANK_DISC.get()))
                 .save(consumer);
 
+        ShapedRecipeBuilder.shaped(ModItem.TETRIS.get())
+                .pattern("BOY")
+                .pattern("PDM")
+                .pattern(" G ")
+                .define('B', Blocks.BLUE_CONCRETE)
+                .define('O', Blocks.ORANGE_CONCRETE)
+                .define('Y', Blocks.YELLOW_CONCRETE)
+                .define('P', Blocks.PURPLE_CONCRETE)
+                .define('D', ModItemCraft.BLANK_DISC.get())
+                .define('M', Blocks.BROWN_CONCRETE)
+                .define('G', Blocks.GREEN_CONCRETE)
+                .unlockedBy("has_disc", has(ModItemCraft.BLANK_DISC.get()))
+                .save(consumer);
+
         ShapedRecipeBuilder.shaped(ModItem.WHY_DO_I.get())
                 .pattern("CCC")
                 .pattern("BDB")
@@ -193,22 +262,21 @@ public class RecipeGenerator extends RecipeProvider {
                 .define('C', Blocks.WHITE_CONCRETE)
                 .define('B', Blocks.BLACK_CONCRETE)
                 .define('D', ModItemCraft.BLANK_DISC.get())
-                .unlockedBy("has_concrete_white", has(Blocks.WHITE_CONCRETE))
-                .unlockedBy("has_concrete_black", has(Blocks.BLACK_CONCRETE))
-                .unlockedBy("has_blank_disc", has(ModItemCraft.BLANK_DISC.get()))
+                .unlockedBy("has_disc", has(ModItemCraft.BLANK_DISC.get()))
                 .save(consumer);
 
-
-            // Other craft (no disc craft)
-        ShapelessRecipeBuilder.shapeless(Items.PLAYER_HEAD)
-                .requires(Items.ZOMBIE_HEAD)
-                .requires(Items.CHARCOAL)
-                .unlockedBy("has_head", has(Items.ZOMBIE_HEAD))
-                .unlockedBy("has_charcoal", has(Items.CHARCOAL))
+        ShapedRecipeBuilder.shaped(ModItem.WE_ARE_ONE.get())
+                .pattern("BCB")
+                .pattern("CDB")
+                .pattern("CCC")
+                .define('C', Blocks.WHITE_CONCRETE)
+                .define('B', Blocks.BLACK_CONCRETE)
+                .define('D', ModItemCraft.BLANK_DISC.get())
+                .unlockedBy("has_disc", has(ModItemCraft.BLANK_DISC.get()))
                 .save(consumer);
 
 
         // Smelting
-        SimpleCookingRecipeBuilder.smelting(Ingredient.of(Items.MUSIC_DISC_11), ModItem.DARKNESS.get(), 0.10f, 200).unlockedBy("has_disc11", has(Items.MUSIC_DISC_11)).save(consumer);
+        SimpleCookingRecipeBuilder.smelting(Ingredient.of(ModItemCraft.BLANK_DISC.get()), ModItem.DARKNESS.get(), 0.10f, 200).unlockedBy("has_disc", has(ModItemCraft.BLANK_DISC.get())).save(consumer);
     }
 }

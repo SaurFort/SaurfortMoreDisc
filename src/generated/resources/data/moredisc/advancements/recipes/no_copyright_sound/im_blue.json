@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "moredisc:darkness"
+        "recipe": "moredisc:im_blue"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "moredisc:darkness"
+      "moredisc:im_blue"
     ]
   }
 }

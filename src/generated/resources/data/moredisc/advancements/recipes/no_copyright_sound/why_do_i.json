@@ -1,36 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_blank_disc": {
+    "has_disc": {
       "conditions": {
         "items": [
           {
             "items": [
               "moredisc:blank_disc"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-    "has_concrete_black": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:black_concrete"
-            ]
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-    "has_concrete_white": {
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:white_concrete"
             ]
           }
         ]
@@ -46,9 +22,7 @@
   },
   "requirements": [
     [
-      "has_concrete_white",
-      "has_concrete_black",
-      "has_blank_disc",
+      "has_disc",
       "has_the_recipe"
     ]
   ],

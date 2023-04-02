@@ -35,7 +35,11 @@ public class ModItem {
         // Alexion300
     public static final RegistryObject<Item> MARIO_THEME = DISC.register("mario_theme_song", () -> new RecordItem(4, ModSounds.MARIO_THEME, new Item.Properties().tab(ModTabs.NoCopyrightSound).stacksTo(1).rarity(Rarity.EPIC), 2200));
     public static final RegistryObject<Item> JINGLE_BELL = DISC.register("jingle_bell", () -> new RecordItem(4, ModSounds.JINGLE_BELL, new Item.Properties().tab(ModTabs.NoCopyrightSound).stacksTo(1).rarity(Rarity.RARE), 3040));
-    public static final RegistryObject<Item> GRAVITY_FALLS = DISC.register("gravity_falls", () -> new RecordItem(4, ModSounds.GRAVITY_FALLS, new Item.Properties().tab(ModTabs.NoCopyrightSound).stacksTo(1).rarity(Rarity.EPIC), 1800));
+    public static final RegistryObject<Item> GRAVITY_FALLS = DISC.register("gravity_falls", () -> new RecordItem(4, ModSounds.GRAVITY_FALLS, new Item.Properties().tab(ModTabs.NoCopyrightSound).stacksTo(1).rarity(Rarity.EPIC), 1920));
+    public static final RegistryObject<Item> IM_BLUE = DISC.register("im_blue", () -> new RecordItem(4, ModSounds.IM_BLUE, new Item.Properties().tab(ModTabs.NoCopyrightSound).stacksTo(1).rarity(Rarity.RARE), 5080));
+    public static final RegistryObject<Item> SIMPSON = DISC.register("simpson", () -> new RecordItem(4, ModSounds.SIMPSON, new Item.Properties().tab(ModTabs.NoCopyrightSound).stacksTo(1).rarity(Rarity.RARE), 1600));
+    public static final RegistryObject<Item> TETRIS = DISC.register("tetris", () -> new RecordItem(4, ModSounds.TETRIS, new Item.Properties().tab(ModTabs.NoCopyrightSound).stacksTo(1).rarity(Rarity.RARE), 4200));
+    public static final RegistryObject<Item> WE_ARE_ONE = DISC.register("we_are_one", () -> new RecordItem(4, ModSounds.WE_ARE_ONE, new Item.Properties().tab(ModTabs.NoCopyrightSound).stacksTo(1).rarity(Rarity.RARE), 3000));
 
         // Minecraft
     public static final RegistryObject<Item> MINECON_22 = DISC.register("minecon_22", () -> new RecordItem(4, ModSounds.MINECON_22, new Item.Properties().tab(ModTabs.NoCopyrightSound).stacksTo(1).rarity(Rarity.RARE), 2440));
