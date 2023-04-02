@@ -1,6 +1,7 @@
 package fr.saurfort.moredisc.sound;
 
 import fr.saurfort.moredisc.Reference;
+import net.minecraft.client.resources.sounds.Sound;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -17,6 +18,7 @@ public class ModSounds {
     public static final RegistryObject<SoundEvent> KUMIZ = SOUNDS.register("disc.clash_kumiz", () -> new SoundEvent(new ResourceLocation(Reference.MOD_ID, "disc.clash_kumiz")));
     public static final RegistryObject<SoundEvent> DARKNESS = SOUNDS.register("disc.darkness", () -> new SoundEvent(new ResourceLocation(Reference.MOD_ID, "disc.darkness")));
     public static final RegistryObject<SoundEvent> GRAVITY_FALLS = SOUNDS.register("disc.gravity_falls", () -> new SoundEvent(new ResourceLocation(Reference.MOD_ID, "disc.gravity_falls")));
+    public static final RegistryObject<SoundEvent> IM_BLUE = SOUNDS.register("disc.im_blue", () -> new SoundEvent(new ResourceLocation(Reference.MOD_ID, "disc.im_blue")));
     public static final RegistryObject<SoundEvent> JINGLE_BELL = SOUNDS.register("disc.jingle_bell", () -> new SoundEvent(new ResourceLocation(Reference.MOD_ID, "disc.jingle_bell")));
     public static final RegistryObject<SoundEvent> MARIO_THEME = SOUNDS.register("disc.mariotheme", () -> new SoundEvent(new ResourceLocation(Reference.MOD_ID, "disc.mariotheme")));
     public static final RegistryObject<SoundEvent> MII_CHALLENGE = SOUNDS.register("disc.mii_challenge", () -> new SoundEvent(new ResourceLocation(Reference.MOD_ID, "disc.mii_challenge")));
@@ -26,9 +28,12 @@ public class ModSounds {
     public static final RegistryObject<SoundEvent> ONE_TRILLION = SOUNDS.register("disc.one_trillion", () -> new SoundEvent(new ResourceLocation(Reference.MOD_ID, "disc.one_trillion")));
     public static final RegistryObject<SoundEvent> ROULETTE_PALADIENNES = SOUNDS.register("moredisc.roulette_paladiennes", () -> new SoundEvent(new ResourceLocation(Reference.MOD_ID, "disc.roulette_paladiennes")));
     public static final RegistryObject<SoundEvent> RUSH_E = SOUNDS.register("disc.rush_e", () -> new SoundEvent(new ResourceLocation(Reference.MOD_ID, "disc.rush_e")));
+    public static final RegistryObject<SoundEvent> SIMPSON = SOUNDS.register("disc.simpson", () -> new SoundEvent(new ResourceLocation(Reference.MOD_ID, "disc.simpson")));
     public static final RegistryObject<SoundEvent> SOMEBODY_LIKE_ME = SOUNDS.register("disc.somebody_like_me", () -> new SoundEvent(new ResourceLocation(Reference.MOD_ID, "disc.somebody_like_me")));
+    public static final RegistryObject<SoundEvent> TETRIS = SOUNDS.register("disc.tetris", () -> new SoundEvent(new ResourceLocation(Reference.MOD_ID, "disc.tetris")));
     public static final RegistryObject<SoundEvent> THE_STORM = SOUNDS.register("disc.the_storm", () -> new SoundEvent(new ResourceLocation(Reference.MOD_ID, "disc.the_storm")));
     public static final RegistryObject<SoundEvent> UNIVERS_SORA = SOUNDS.register("disc.univers_sora", () -> new SoundEvent(new ResourceLocation(Reference.MOD_ID, "disc.univers_sora")));
+    public static final RegistryObject<SoundEvent> WE_ARE_ONE = SOUNDS.register("disc.we_are_one", () -> new SoundEvent(new ResourceLocation(Reference.MOD_ID, "disc.we_are_one")));
     public static final RegistryObject<SoundEvent> WHY_DO_I = SOUNDS.register("disc.why_do_i", () -> new SoundEvent(new ResourceLocation(Reference.MOD_ID, "disc.why_do_i")));
 
 

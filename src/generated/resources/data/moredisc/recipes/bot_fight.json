@@ -1,10 +1,5 @@
 {
   "type": "minecraft:crafting_shaped",
-  "pattern": [
-    " I ",
-    "IBI",
-    " I "
-  ],
   "key": {
     "B": {
       "item": "moredisc:blank_disc"
@@ -13,6 +8,11 @@
       "tag": "forge:ingots/iron"
     }
   },
+  "pattern": [
+    " I ",
+    "IBI",
+    " I "
+  ],
   "result": {
     "item": "moredisc:bot_fight"
   }

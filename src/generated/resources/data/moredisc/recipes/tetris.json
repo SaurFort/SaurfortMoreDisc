@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "B": {
+      "item": "minecraft:blue_concrete"
+    },
+    "D": {
+      "item": "moredisc:blank_disc"
+    },
+    "G": {
+      "item": "minecraft:green_concrete"
+    },
+    "M": {
+      "item": "minecraft:brown_concrete"
+    },
+    "O": {
+      "item": "minecraft:orange_concrete"
+    },
+    "P": {
+      "item": "minecraft:purple_concrete"
+    },
+    "Y": {
+      "item": "minecraft:yellow_concrete"
+    }
+  },
+  "pattern": [
+    "BOY",
+    "PDM",
+    " G "
+  ],
+  "result": {
+    "item": "moredisc:tetris"
+  }
+}

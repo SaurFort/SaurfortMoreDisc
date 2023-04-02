@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:coal_block"
+    },
+    {
+      "item": "minecraft:charcoal"
+    },
+    {
+      "item": "moredisc:book_1"
+    }
+  ],
+  "result": {
+    "item": "minecraft:zombie_head"
+  }
+}

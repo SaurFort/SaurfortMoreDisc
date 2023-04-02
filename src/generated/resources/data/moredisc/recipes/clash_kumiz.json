@@ -1,24 +1,24 @@
 {
   "type": "minecraft:crafting_shaped",
+  "key": {
+    "B": {
+      "item": "moredisc:blank_disc"
+    },
+    "G": {
+      "item": "minecraft:ghast_tear"
+    },
+    "I": {
+      "tag": "forge:ingots/iron"
+    },
+    "N": {
+      "tag": "forge:nuggets/gold"
+    }
+  },
   "pattern": [
     "NIG",
     "IBI",
     "GIN"
   ],
-  "key": {
-    "N": {
-      "tag": "forge:nuggets/gold"
-    },
-    "I": {
-      "tag": "forge:ingots/iron"
-    },
-    "G": {
-      "item": "minecraft:ghast_tear"
-    },
-    "B": {
-      "item": "moredisc:blank_disc"
-    }
-  },
   "result": {
     "item": "moredisc:clash_kumiz"
   }
