@@ -1,4 +1,7 @@
 {
+  "item.moredisc.bosun_bill": "Bosun Bill",
+  "item.moredisc.bosun_bill.desc": "Alexion300 - Bosun Bill from Sea of Thieves (noteblock)",
+
   "item.moredisc.bot_fight": "Bot Fight",
   "item.moredisc.bot_fight.desc": "Everen Maxwell - Bot Fight",
 
@@ -27,10 +30,13 @@
   "item.moredisc.one_trillion.desc": "YouTube - One trillion views",
 
   "item.moredisc.simpson": "Simpson",
-  "item.moredisc.simspon.desc": "Alexion300 - Simpson (noteblock)",
+  "item.moredisc.simpson.desc": "Alexion300 - Simpson (noteblock)",
 
   "item.moredisc.somebody_like_me": "Somebody Like Me",
   "item.moredisc.somebody_like_me.desc": "JJD & Division One - Somebody Like Me",
+
+  "item.moredisc.sweet_dreams": "Sweat Dreams",
+  "item.moredisc.sweet_dreams.desc": "Alexion300 - Sweet Dreams (noteblock)",
 
   "item.moredisc.tetris": "Tetris 99",
   "item.moredisc.tetris.desc": "Alexion300 - Tetris 99 Theme (noteblock)",
@@ -38,36 +44,11 @@
   "item.moredisc.we_are_one": "We Are The Number One",
   "item.moredisc.we_are_one.desc": "Alexion300 - We Are The Number One (noteblock)",
 
+  "item.moredisc.what_love_k": "What is love K?",
+  "item.moredisc.what_love_k.desc": "Alexion300 - What is love K? (noteblock)",
+
   "item.moredisc.why_do_i": "Why do I?",
   "item.moredisc.why_do_i.desc": "Unknow Brain - Why do I?",
-
-
-  "item.moredisc.univers_sora":  "The universe of Sora",
-  "item.moredisc.univers_sora.desc": "Tai and Sacha - L'univers de Sora",
-
-  "item.moredisc.chaussures_rouges": "Red shoes",
-  "item.moredisc.chaussures_rouges.desc": "Deo Toons (Clown) - Chaussures rouges",
-
-  "item.moredisc.rush-e": "Rush E",
-  "item.moredisc.rush-e.desc": "Sheet Music Boss - Rush E",
-
-  "item.moredisc.on_mappel_fuze": "My name is Fuze III",
-  "item.moredisc.on_mappel_fuze.desc": "Fuze III - On m'appel Fuze III",
-
-  "item.moredisc.roulette_paladienne": "This is Paladian roulette",
-  "item.moredisc.roulette_paladienne.desc": "Fuze III - C'est la roulette paladiennes",
-
-  "item.moredisc.mii_challenge": "MII Challenge",
-  "item.moredisc.mii_challenge.desc": "Fuze III - MII Challenge",
-
-  "item.moredisc.anti-fuze": "The clash of the anti-fuze",
-  "item.moredisc.anti-fuze.desc": "Fuze III - Le clash des anti-fuze",
-
-  "item.moredisc.clash_kumiz": "Kumiz",
-  "item.moredisc.clash_kumiz.desc": "Fuze III - Kumiz",
-
-  "item.moredisc.mort_avec_toi": "Death with you",
-  "item.moredisc.mort_avec_toi.desc": "GARGÄNTUA - La mort avec toi",
 
 
   "item.moredisc.vinyl": "Vinyl part",
@@ -76,6 +57,5 @@
   "item.moredisc.book_2": "Gravity Falls Book 2",
   "item.moredisc.book_3": "Gravity Falls Book 3",
 
-  "itemGroup.copyright_sound": "Copyright Sound",
-  "itemGroup.no_copyright_sound": "No Copyright Sound"
+  "itemGroup.moredisc": "MoreDisc"
 }

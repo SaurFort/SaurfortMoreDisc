@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "moredisc:roulette_paladienne"
+        "recipe": "moredisc:sweet_dreams"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "moredisc:roulette_paladienne"
+      "moredisc:sweet_dreams"
     ]
   }
 }

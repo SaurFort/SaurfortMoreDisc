@@ -1,8 +1,8 @@
 {
-  "disc.anti-fuze": {
+  "disc.bosun_bill": {
     "sounds": [
       {
-        "name": "moredisc:anti-fuze",
+        "name": "moredisc:bosun_bill",
         "volume": 0.50,
         "stream": true
       }
@@ -13,24 +13,6 @@
       {
         "name": "moredisc:bot_fight",
         "volume": 0.25,
-        "stream": true
-      }
-    ]
-  },
-  "disc.chaussures_rouges": {
-    "sounds": [
-      {
-        "name": "moredisc:chaussures_rouges",
-        "volume": 0.50,
-        "stream": true
-      }
-    ]
-  },
-  "disc.clash_kumiz": {
-    "sounds": [
-      {
-        "name": "moredisc:clash_kumiz",
-        "volume": 0.50,
         "stream": true
       }
     ]
@@ -80,37 +62,10 @@
       }
     ]
   },
-  "disc.mii_challenge": {
-    "sounds": [
-      {
-        "name": "moredisc:mii_challenge",
-        "volume": 0.50,
-        "stream": true
-      }
-    ]
-  },
   "disc.minecon_22": {
     "sounds": [
       {
         "name": "moredisc:minecon_2022",
-        "volume": 0.50,
-        "stream": true
-      }
-    ]
-  },
-  "disc.mort_avec_toi": {
-    "sounds": [
-      {
-        "name": "moredisc:mort_avec_toi",
-        "volume": 0.50,
-        "stream": true
-      }
-    ]
-  },
-  "disc.on_mappel_fuze": {
-    "sounds": [
-      {
-        "name": "moredisc:on_mappel_fuze",
         "volume": 0.50,
         "stream": true
       }
@@ -125,28 +80,19 @@
         }
       ]
   },
-  "disc.roulette_paladiennes": {
-    "sounds": [
-      {
-        "name": "moredisc:roulette_paladienne",
-        "volume": 0.50,
-        "stream": true
-      }
-    ]
-  },
-  "disc.rush_e": {
-    "sounds": [
-      {
-        "name": "moredisc:rush-e",
-        "volume": 0.50,
-        "stream": true
-      }
-    ]
-  },
   "disc.simpson": {
     "sounds": [
       {
         "name": "moredisc:simpson",
+        "volume": 0.50,
+        "stream": true
+      }
+    ]
+  },
+  "disc.sweet_dreams": {
+    "sounds": [
+      {
+        "name": "moredisc:sweet_dreams",
         "volume": 0.50,
         "stream": true
       }
@@ -179,19 +125,19 @@
       }
     ]
   },
-  "disc.univers_sora": {
+  "disc.we_are_one": {
     "sounds": [
       {
-        "name": "moredisc:univers_sora",
+        "name": "moredisc:we_are_one",
         "volume": 0.50,
         "stream": true
       }
     ]
   },
-  "disc.we_are_one": {
+  "disc.what_love_k": {
     "sounds": [
       {
-        "name": "moredisc:we_are_one",
+        "name": "moredisc:what_love_k",
         "volume": 0.50,
         "stream": true
       }

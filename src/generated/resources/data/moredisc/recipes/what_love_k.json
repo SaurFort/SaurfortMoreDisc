@@ -1,19 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "key": {
-    "C": {
+    "B": {
       "item": "minecraft:black_concrete"
     },
-    "D": {
-      "item": "moredisc:blank_disc"
+    "S": {
+      "item": "moredisc:somebody_like_me"
     }
   },
   "pattern": [
-    "CCC",
-    "DC ",
-    "CCC"
+    "B B",
+    "BS ",
+    "B B"
   ],
   "result": {
-    "item": "moredisc:rush-e"
+    "item": "moredisc:what_love_k"
   }
 }

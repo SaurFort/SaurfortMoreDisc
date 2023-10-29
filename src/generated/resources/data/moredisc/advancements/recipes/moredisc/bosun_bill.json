@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "moredisc:on_mappel_fuze"
+        "recipe": "moredisc:bosun_bill"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "moredisc:on_mappel_fuze"
+      "moredisc:bosun_bill"
     ]
   }
 }

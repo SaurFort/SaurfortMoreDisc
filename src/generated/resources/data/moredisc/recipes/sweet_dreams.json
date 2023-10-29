@@ -5,13 +5,13 @@
       "item": "moredisc:blank_disc"
     },
     {
-      "item": "minecraft:red_dye"
+      "item": "minecraft:white_bed"
     },
     {
-      "item": "minecraft:leather_boots"
+      "item": "minecraft:phantom_membrane"
     }
   ],
   "result": {
-    "item": "moredisc:chaussures_rouges"
+    "item": "moredisc:sweet_dreams"
   }
 }

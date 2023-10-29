@@ -6,7 +6,7 @@
         "items": [
           {
             "items": [
-              "moredisc:blank_disc"
+              "moredisc:somebody_like_me"
             ]
           }
         ]
@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "moredisc:clash_kumiz"
+        "recipe": "moredisc:what_love_k"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "moredisc:clash_kumiz"
+      "moredisc:what_love_k"
     ]
   }
 }

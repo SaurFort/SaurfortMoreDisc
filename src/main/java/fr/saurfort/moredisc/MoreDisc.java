@@ -2,7 +2,6 @@ package fr.saurfort.moredisc;
 
 import fr.saurfort.moredisc.item.ModItem;
 import fr.saurfort.moredisc.item.ModItemCraft;
-import fr.saurfort.moredisc.item.ModItemTabs;
 import fr.saurfort.moredisc.sound.ModSounds;
 import net.minecraft.data.DataGenerator;
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -25,7 +24,6 @@ public class MoreDisc {
 
         ModItem.register(eventBus);
         ModItemCraft.register(eventBus);
-        ModItemTabs.register(eventBus);
         ModSounds.register(eventBus);
 
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::onCommonSetup);
@@ -34,12 +32,10 @@ public class MoreDisc {
     }
 
     private void onCommonSetup(FMLCommonSetupEvent event) {
-        //event.enqueueWork(CommonHandler::new);
         //LOGGER.info("Thanks for playing with Saurfort's MoreDisc");
     }
 
     private void onClientSetup(FMLClientSetupEvent event) {
-        //event.enqueueWork(ClientHandler::new);
         //LOGGER.info("Thanks for playing with Saurfort's MoreDisc");
     }
 

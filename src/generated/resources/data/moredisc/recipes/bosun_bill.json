@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "B": {
+      "item": "minecraft:oak_boat"
+    },
+    "D": {
+      "item": "moredisc:blank_disc"
+    },
+    "P": {
+      "item": "minecraft:potion"
+    },
+    "S": {
+      "item": "minecraft:player_head"
+    },
+    "W": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "pattern": [
+    " S ",
+    "WDP",
+    " B "
+  ],
+  "result": {
+    "item": "moredisc:bosun_bill"
+  }
+}

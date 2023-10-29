@@ -1,6 +1,6 @@
 {
-"parent": "item/generated",
-"textures": {
-"layer0": "moredisc:item/darkness"
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "moredisc:item/darkness"
   }
 }
