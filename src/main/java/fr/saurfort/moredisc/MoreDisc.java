@@ -4,8 +4,10 @@ import fr.saurfort.moredisc.item.ModItem;
 import fr.saurfort.moredisc.item.ModItemCraft;
 import fr.saurfort.moredisc.sound.ModSounds;
 import net.minecraft.data.DataGenerator;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.data.event.GatherDataEvent;
+import net.minecraftforge.event.CreativeModeTabEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
@@ -29,10 +31,61 @@ public class MoreDisc {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::onCommonSetup);
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::onClientSetup);
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::onGatherData);
+        eventBus.addListener(this::addCreative);
     }
 
     private void onCommonSetup(FMLCommonSetupEvent event) {
         //LOGGER.info("Thanks for playing with Saurfort's MoreDisc");
+    }
+
+    private void addCreative(CreativeModeTabEvent.BuildContents event) {
+        if (event.getTab() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+            event.accept(ModItem.BOSUN_BILL);
+            event.accept(ModItem.BOT_FIGHT);
+            event.accept(ModItem.WHAT_LOVE_K);
+            event.accept(ModItem.IM_BLUE);
+            event.accept(ModItem.GRAVITY_FALLS);
+            event.accept(ModItem.JINGLE_BELL);
+            event.accept(ModItem.DARKNESS);
+            event.accept(ModItem.MARIO_THEME);
+            event.accept(ModItem.MINECON_22);
+            event.accept(ModItem.ONE_TRILLION);
+            event.accept(ModItem.SIMPSON);
+            event.accept(ModItem.SOMEBODY_LIKE_ME);
+            event.accept(ModItem.SWEET_DREAMS);
+            event.accept(ModItem.TETRIS);
+            event.accept(ModItem.THE_STORM);
+            event.accept(ModItem.WE_ARE_ONE);
+            event.accept(ModItem.WHY_DO_I);
+        }
+
+        if(event.getTab() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItemCraft.VINYL);
+            event.accept(ModItemCraft.BLANK_DISC);
+            event.accept(ModItemCraft.BOOK_1);
+            event.accept(ModItemCraft.BOOK_2);
+            event.accept(ModItemCraft.BOOK_3);
+        }
+
+        if (event.getTab() == ModTabs.MOREDISC) {
+            event.accept(ModItem.BOSUN_BILL);
+            event.accept(ModItem.BOT_FIGHT);
+            event.accept(ModItem.WHAT_LOVE_K);
+            event.accept(ModItem.IM_BLUE);
+            event.accept(ModItem.GRAVITY_FALLS);
+            event.accept(ModItem.JINGLE_BELL);
+            event.accept(ModItem.DARKNESS);
+            event.accept(ModItem.MARIO_THEME);
+            event.accept(ModItem.MINECON_22);
+            event.accept(ModItem.ONE_TRILLION);
+            event.accept(ModItem.SIMPSON);
+            event.accept(ModItem.SOMEBODY_LIKE_ME);
+            event.accept(ModItem.SWEET_DREAMS);
+            event.accept(ModItem.TETRIS);
+            event.accept(ModItem.THE_STORM);
+            event.accept(ModItem.WE_ARE_ONE);
+            event.accept(ModItem.WHY_DO_I);
+        }
     }
 
     private void onClientSetup(FMLClientSetupEvent event) {

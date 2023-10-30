@@ -57,5 +57,6 @@
   "item.moredisc.book_2": "Gravity Falls Book 2",
   "item.moredisc.book_3": "Gravity Falls Book 3",
 
-  "itemGroup.moredisc": "MoreDisc"
+  "itemGroup.moredisc": "MoreDisc",
+  "creativemodetab.moredisc": "MoreDisc"
 }
