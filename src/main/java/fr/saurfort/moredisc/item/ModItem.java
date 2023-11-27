@@ -1,10 +1,7 @@
 package fr.saurfort.moredisc.item;
 
-import fr.saurfort.moredisc.ModTabs;
-import fr.saurfort.moredisc.MoreDisc;
 import fr.saurfort.moredisc.Reference;
 import fr.saurfort.moredisc.sound.ModSounds;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.RecordItem;
@@ -12,8 +9,6 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-
-import java.util.function.Supplier;
 
 public class ModItem {
     public static final DeferredRegister<Item> DISC = DeferredRegister.create(ForgeRegistries.ITEMS, Reference.MOD_ID);

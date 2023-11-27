@@ -7,7 +7,7 @@ import net.minecraft.data.DataGenerator;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.data.event.GatherDataEvent;
-import net.minecraftforge.event.CreativeModeTabEvent;
+import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
@@ -38,8 +38,8 @@ public class MoreDisc {
         //LOGGER.info("Thanks for playing with Saurfort's MoreDisc");
     }
 
-    private void addCreative(CreativeModeTabEvent.BuildContents event) {
-        if (event.getTab() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+    private void addCreative(BuildCreativeModeTabContentsEvent event) {
+        if (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
             event.accept(ModItem.BOSUN_BILL);
             event.accept(ModItem.BOT_FIGHT);
             event.accept(ModItem.WHAT_LOVE_K);
@@ -59,7 +59,7 @@ public class MoreDisc {
             event.accept(ModItem.WHY_DO_I);
         }
 
-        if(event.getTab() == CreativeModeTabs.INGREDIENTS) {
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItemCraft.VINYL);
             event.accept(ModItemCraft.BLANK_DISC);
             event.accept(ModItemCraft.BOOK_1);
@@ -67,7 +67,7 @@ public class MoreDisc {
             event.accept(ModItemCraft.BOOK_3);
         }
 
-        if (event.getTab() == ModTabs.MOREDISC) {
+        /*if (event.getTab() == ModTabs.MOREDISC) {
             event.accept(ModItem.BOSUN_BILL);
             event.accept(ModItem.BOT_FIGHT);
             event.accept(ModItem.WHAT_LOVE_K);
@@ -85,7 +85,7 @@ public class MoreDisc {
             event.accept(ModItem.THE_STORM);
             event.accept(ModItem.WE_ARE_ONE);
             event.accept(ModItem.WHY_DO_I);
-        }
+        }*/
     }
 
     private void onClientSetup(FMLClientSetupEvent event) {

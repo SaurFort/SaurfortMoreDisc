@@ -2,13 +2,11 @@ package fr.saurfort.moredisc.data.recipe;
 
 import fr.saurfort.moredisc.item.ModItem;
 import fr.saurfort.moredisc.item.ModItemCraft;
-import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.material.Material;
 import net.minecraftforge.common.Tags;
 
 import java.util.function.Consumer;
