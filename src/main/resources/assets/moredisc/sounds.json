@@ -1,36 +1,18 @@
 {
-  "disc.anti-fuze": {
+  "disc.bosun_bill": {
     "sounds": [
       {
-        "name": "moredisc:anti-fuze",
+        "name": "moredisc:bosun_bill",
         "volume": 0.50,
         "stream": true
       }
     ]
   },
-  "disc.botfight": {
+  "disc.bot_fight": {
     "sounds": [
       {
         "name": "moredisc:bot_fight",
         "volume": 0.25,
-        "stream": true
-      }
-    ]
-  },
-  "disc.chaussures_rouges": {
-    "sounds": [
-      {
-        "name": "moredisc:chaussures_rouges",
-        "volume": 0.50,
-        "stream": true
-      }
-    ]
-  },
-  "disc.clash_kumiz": {
-    "sounds": [
-      {
-        "name": "moredisc:clash_kumiz",
-        "volume": 0.50,
         "stream": true
       }
     ]
@@ -53,6 +35,15 @@
       }
     ]
   },
+  "disc.im_blue": {
+    "sounds": [
+      {
+        "name": "moredisc:im_blue",
+        "volume": 0.50,
+        "stream": true
+      }
+    ]
+  },
   "disc.jingle_bell": {
     "sounds": [
       {
@@ -62,74 +53,20 @@
       }
     ]
   },
-  "disc.mariotheme": {
+  "disc.mario_theme": {
     "sounds": [
       {
-        "name": "moredisc:mario_theme_song",
+        "name": "moredisc:mario_theme",
         "volume": 0.40,
         "stream": true
       }
     ]
   },
-  "disc.mii_challenge": {
+  "disc.simpson": {
     "sounds": [
       {
-        "name": "moredisc:mii_challenge",
-        "volume": 0.50,
-        "stream": true
-      }
-    ]
-  },
-  "disc.minecon_22": {
-    "sounds": [
-      {
-        "name": "moredisc:minecon_2022",
-        "volume": 0.50,
-        "stream": true
-      }
-    ]
-  },
-  "disc.mort_avec_toi": {
-    "sounds": [
-      {
-        "name": "moredisc:mort_avec_toi",
-        "volume": 0.50,
-        "stream": true
-      }
-    ]
-  },
-  "disc.on_mappel_fuze": {
-    "sounds": [
-      {
-        "name": "moredisc:on_mappel_fuze",
-        "volume": 0.50,
-        "stream": true
-      }
-    ]
-  },
-    "disc.one_trillion": {
-      "sounds": [
-        {
-          "name": "moredisc:one_trillion",
-          "volume": 0.50,
-          "stream": true
-        }
-      ]
-  },
-  "disc.roulette_paladiennes": {
-    "sounds": [
-      {
-        "name": "moredisc:roulette_paladienne",
-        "volume": 0.50,
-        "stream": true
-      }
-    ]
-  },
-  "disc.rush_e": {
-    "sounds": [
-      {
-        "name": "moredisc:rush-e",
-        "volume": 0.50,
+        "name": "moredisc:simpson",
+        "volume": 0.60,
         "stream": true
       }
     ]
@@ -138,6 +75,24 @@
     "sounds": [
       {
         "name": "moredisc:somebody_like_me",
+        "volume": 0.50,
+        "stream": true
+      }
+    ]
+  },
+  "disc.sweet_dreams": {
+    "sounds": [
+      {
+        "name": "moredisc:sweet_dreams",
+        "volume": 0.60,
+        "stream": true
+      }
+    ]
+  },
+  "disc.tetris": {
+    "sounds": [
+      {
+        "name": "moredisc:tetris",
         "volume": 0.50,
         "stream": true
       }
@@ -152,11 +107,20 @@
       }
     ]
   },
-  "disc.univers_sora": {
+  "disc.we_are_the_number_one": {
     "sounds": [
       {
-        "name": "moredisc:univers_sora",
-        "volume": 0.50,
+        "name": "moredisc:we_are_the_number_one",
+        "volume": 0.70,
+        "stream": true
+      }
+    ]
+  },
+  "disc.what_love_k": {
+    "sounds": [
+      {
+        "name": "moredisc:what_love_k",
+        "volume": 0.65,
         "stream": true
       }
     ]

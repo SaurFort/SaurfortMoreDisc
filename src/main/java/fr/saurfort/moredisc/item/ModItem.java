@@ -1,66 +1,36 @@
 package fr.saurfort.moredisc.item;
 
 import fr.saurfort.moredisc.ModTabs;
-import fr.saurfort.moredisc.MoreDisc;
 import fr.saurfort.moredisc.Reference;
-import fr.saurfort.moredisc.sound.ModSounds;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Rarity;
-import net.minecraft.world.item.RecordItem;
+import fr.saurfort.moredisc.sound.ModMusics;
+import net.minecraft.item.Item;
+import net.minecraft.item.MusicDiscItem;
+import net.minecraft.item.Rarity;
 import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.registries.RegistryObject;
+
+import java.util.function.Supplier;
 
 public class ModItem {
     public static final DeferredRegister<Item> DISC = DeferredRegister.create(ForgeRegistries.ITEMS, Reference.MOD_ID);
-    // NCS
-        // Everen Maxwell
-    public static final RegistryObject<Item> BOT_FIGHT = DISC.register("bot_fight", () -> new RecordItem(4, ModSounds.BOT_FIGHT, new Item.Properties().tab(ModTabs.NoCopyrightSound).stacksTo(1).rarity(Rarity.RARE)));
 
-        // JJD & Division One
-    public static final RegistryObject<Item> SOMEBODY_LIKE_ME = DISC.register("somebody_like_me", () -> new RecordItem(4, ModSounds.SOMEBODY_LIKE_ME, new Item.Properties().tab(ModTabs.NoCopyrightSound).stacksTo(1).rarity(Rarity.RARE)));
-
-        //  Lost Sky x She Is Jules
-    public static final RegistryObject<Item> DARKNESS = DISC.register("darkness", () -> new RecordItem(4, ModSounds.DARKNESS, new Item.Properties().tab(ModTabs.NoCopyrightSound).stacksTo(1).rarity(Rarity.EPIC)));
-
-        // TheFatRat & Maisy Kay
-    public static final RegistryObject<Item> THE_STORM = DISC.register("the_storm", () -> new RecordItem(4, ModSounds.THE_STORM, new Item.Properties().tab(ModTabs.NoCopyrightSound).stacksTo(1).rarity(Rarity.RARE)));
-
-        // Unknown Brain
-    public static final RegistryObject<Item> WHY_DO_I = DISC.register("why_do_i", () -> new RecordItem(4, ModSounds.WHY_DO_I, new Item.Properties().tab(ModTabs.NoCopyrightSound).stacksTo(1).rarity(Rarity.RARE)));
-
-        // Alexion300
-    public static final RegistryObject<Item> MARIO_THEME = DISC.register("mario_theme_song", () -> new RecordItem(4, ModSounds.MARIO_THEME, new Item.Properties().tab(ModTabs.NoCopyrightSound).stacksTo(1).rarity(Rarity.EPIC)));
-    public static final RegistryObject<Item> JINGLE_BELL = DISC.register("jingle_bell", () -> new RecordItem(4, ModSounds.JINGLE_BELL, new Item.Properties().tab(ModTabs.NoCopyrightSound).stacksTo(1).rarity(Rarity.RARE)));
-    public static final RegistryObject<Item> GRAVITY_FALLS = DISC.register("gravity_falls", () -> new RecordItem(4, ModSounds.GRAVITY_FALLS, new Item.Properties().tab(ModTabs.NoCopyrightSound).stacksTo(1).rarity(Rarity.EPIC)));
-
-        // Minecraft
-    public static final RegistryObject<Item> MINECON_22 = DISC.register("minecon_22", () -> new RecordItem(4, ModSounds.MINECON_22, new Item.Properties().tab(ModTabs.NoCopyrightSound).stacksTo(1).rarity(Rarity.RARE)));
-
-        // YouTube
-    public static final RegistryObject<Item> ONE_TRILLION = DISC.register("one_trillion", () -> new RecordItem(4, ModSounds.ONE_TRILLION, new Item.Properties().tab(ModTabs.NoCopyrightSound).stacksTo(1).rarity(Rarity.EPIC)));
-
-
-    // CS
-        // Fuze III
-    public static final RegistryObject<Item> ON_APPEL_FUZE = DISC.register("on_mappel_fuze", () -> new RecordItem(4, ModSounds.ON_APPEL_FUZE, new Item.Properties().tab(ModTabs.CopyrightSound).stacksTo(1).rarity(Rarity.RARE)));
-    public static final RegistryObject<Item> ROULETTE_PALADIENNES = DISC.register("roulette_paladienne", () -> new RecordItem(4, ModSounds.ROULETTE_PALADIENNES, new Item.Properties().tab(ModTabs.CopyrightSound).stacksTo(1).rarity(Rarity.EPIC)));
-    public static final RegistryObject<Item> MII_CHALLENGE = DISC.register("mii_challenge", () -> new RecordItem(4, ModSounds.MII_CHALLENGE, new Item.Properties().tab(ModTabs.CopyrightSound).stacksTo(1).rarity(Rarity.RARE)));
-    public static final RegistryObject<Item> ANTI_FUZE = DISC.register("anti-fuze", () -> new RecordItem(4, ModSounds.ANTI_FUZE, new Item.Properties().tab(ModTabs.CopyrightSound).stacksTo(1).rarity(Rarity.RARE)));
-    public static final RegistryObject<Item> KUMIZ = DISC.register("clash_kumiz", () -> new RecordItem(4, ModSounds.KUMIZ, new Item.Properties().tab(ModTabs.CopyrightSound).stacksTo(1).rarity(Rarity.RARE)));
-
-        // Tai & Sacha
-    public static final RegistryObject<Item> UNIVERS_SORA = DISC.register("univers_sora", () -> new RecordItem(4, ModSounds.UNIVERS_SORA, new Item.Properties().tab(ModTabs.CopyrightSound).stacksTo(1).rarity(Rarity.EPIC)));
-
-        // Deo Toons
-    public static final RegistryObject<Item> CHAUSSURES_ROUGES = DISC.register("chaussures_rouges", () -> new RecordItem(4, ModSounds.CHAUSSURES_ROUGES, new Item.Properties().tab(ModTabs.CopyrightSound).stacksTo(1).rarity(Rarity.RARE)));
-
-        // Sheet Music Boss
-    public static final RegistryObject<Item> RUSH_E = DISC.register("rush-e", () -> new RecordItem(4, ModSounds.RUSH_E, new Item.Properties().tab(ModTabs.CopyrightSound).stacksTo(1).rarity(Rarity.EPIC)));
-
-        // Gargäntua
-    public static final RegistryObject<Item> MORT_AVEC_TOI = DISC.register("mort_avec_toi", () -> new RecordItem(4, ModSounds.MORT_AVEC_TOI, new Item.Properties().tab(ModTabs.CopyrightSound).stacksTo(1).rarity(Rarity.RARE)));
+    public static final RegistryObject<Item> BOSUN_BILL = DISC.register("bosun_bill", () -> new MusicDiscItem(4, ModMusics.BOSUN_BILL, new Item.Properties().tab(ModTabs.MoreDisc).stacksTo(1).rarity(Rarity.RARE)));
+    public static final RegistryObject<Item> BOT_FIGHT = DISC.register("bot_fight", () -> new MusicDiscItem(4, ModMusics.BOT_FIGHT, new Item.Properties().tab(ModTabs.MoreDisc).stacksTo(1).rarity(Rarity.RARE)));
+    public static final RegistryObject<Item> DARKNESS = DISC.register("darkness", () -> new MusicDiscItem(4, ModMusics.DARKNESS, new Item.Properties().tab(ModTabs.MoreDisc).stacksTo(1).rarity(Rarity.RARE)));
+    public static final RegistryObject<Item> GRAVITY_FALLS = DISC.register("gravity_falls", () -> new MusicDiscItem(5, ModMusics.GRAVITY_FALLS, new Item.Properties().tab(ModTabs.MoreDisc).stacksTo(1).rarity(Rarity.EPIC)));
+    public static final RegistryObject<Item> IM_BLUE = DISC.register("im_blue", () -> new MusicDiscItem(4, ModMusics.IM_BLUE, new Item.Properties().tab(ModTabs.MoreDisc).stacksTo(1).rarity(Rarity.RARE)));
+    public static final RegistryObject<Item> JINGLE_BELL = DISC.register("jingle_bell", () -> new MusicDiscItem(4, ModMusics.JINGLE_BELL, new Item.Properties().tab(ModTabs.MoreDisc).stacksTo(1).rarity(Rarity.RARE)));
+    public static final RegistryObject<Item> MARIO_THEME = DISC.register("mario_theme_song", () -> new MusicDiscItem(4, ModMusics.MARIO_THEME, new Item.Properties().tab(ModTabs.MoreDisc).stacksTo(1).rarity(Rarity.EPIC)));
+    public static final RegistryObject<Item> SIMPSON = DISC.register("simpson", () -> new MusicDiscItem(4, ModMusics.SIMPSON, new Item.Properties().tab(ModTabs.MoreDisc).stacksTo(1).rarity(Rarity.RARE)));
+    public static final RegistryObject<Item> SOMEBODY_LIKE_ME = DISC.register("somebody_like_me", () -> new MusicDiscItem(4, ModMusics.SOMEBODY_LIKE_ME, new Item.Properties().tab(ModTabs.MoreDisc).stacksTo(1).rarity(Rarity.RARE)));
+    public static final RegistryObject<Item> SWEET_DREAMS = DISC.register("sweet_dreams", () -> new MusicDiscItem(4, ModMusics.SWEET_DREAMS, new Item.Properties().tab(ModTabs.MoreDisc).stacksTo(1).rarity(Rarity.RARE)));
+    public static final RegistryObject<Item> TETRIS = DISC.register("tetris", () -> new MusicDiscItem(4, ModMusics.TETRIS, new Item.Properties().tab(ModTabs.MoreDisc).stacksTo(1).rarity(Rarity.RARE)));
+    public static final RegistryObject<Item> THE_STORM = DISC.register("the_storm", () -> new MusicDiscItem(4, ModMusics.THE_STORM, new Item.Properties().tab(ModTabs.MoreDisc).stacksTo(1).rarity(Rarity.RARE)));
+    public static final RegistryObject<Item> WE_ARE_THE_NUMBER_ONE = DISC.register("we_are_the_number_one", () -> new MusicDiscItem(4, ModMusics.WE_ARE_THE_NUMBER_ONE, new Item.Properties().tab(ModTabs.MoreDisc).stacksTo(1).rarity(Rarity.RARE)));
+    public static final RegistryObject<Item> WHAT_LOVE_K = DISC.register("what_love_k", () -> new MusicDiscItem(4, ModMusics.WHAT_LOVE_K, new Item.Properties().tab(ModTabs.MoreDisc).stacksTo(1).rarity(Rarity.RARE)));
+    public static final RegistryObject<Item> WHY_DO_I = DISC.register("why_do_i", () -> new MusicDiscItem(4, ModMusics.WHY_DO_I, new Item.Properties().tab(ModTabs.MoreDisc).stacksTo(1).rarity(Rarity.RARE)));
 
 
     public static void register(IEventBus eventBus) {
