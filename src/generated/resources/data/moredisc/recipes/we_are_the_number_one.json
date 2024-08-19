@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BCB",
+    "CDB",
+    "CCC"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:white_concrete"
+    },
+    "B": {
+      "item": "minecraft:black_concrete"
+    },
+    "D": {
+      "item": "moredisc:blank_disc"
+    }
+  },
+  "result": {
+    "item": "moredisc:we_are_the_number_one"
+  }
+}

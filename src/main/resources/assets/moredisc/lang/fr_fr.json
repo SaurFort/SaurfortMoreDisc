@@ -1,0 +1,72 @@
+{
+  "item.moredisc.bosun_bill": "Bosun Bill",
+  "item.moredisc.bosun_bill.desc": "Alexion300 - Bosun Bill de Sea of Thieves (noteblock)",
+
+  "item.moredisc.bot_fight": "Bot Fight",
+  "item.moredisc.bot_fight.desc": "Everen Maxwell - Bot Fight",
+
+  "item.moredisc.mario_theme_song": "Mario Theme",
+  "item.moredisc.mario_theme_song.desc": "Alexion300 - Mario Theme (noteblock)",
+
+  "item.moredisc.gravity_falls": "Gravity Falls",
+  "item.moredisc.gravity_falls.desc": "Alexion300 - Gravity Falls (noteblock)",
+
+  "item.moredisc.im_blue": "I'm Blue",
+  "item.moredisc.im_blue.desc": "Alexion300 - I'm Blue (noteblock)",
+
+  "item.moredisc.darkness": "Darkness",
+  "item.moredisc.darkness.desc": "Lost Sky x She Is Jules - Darkness",
+
+  "item.moredisc.jingle_bell": "Jingle Bell",
+  "item.moredisc.jingle_bell.desc": "Alexion300 - Jingle Bell (noteblock)",
+
+  "item.moredisc.the_storm": "The Storm",
+  "item.moredisc.the_storm.desc": "TheFatRat & Maisy Kay - The Storm",
+
+  "item.moredisc.simpson": "Simpson",
+  "item.moredisc.simpson.desc": "Alexion300 - Simpson (noteblock)",
+
+  "item.moredisc.somebody_like_me": "Somebody Like Me",
+  "item.moredisc.somebody_like_me.desc": "JJD & Division One - Somebody Like Me",
+
+  "item.moredisc.sweet_dreams": "Sweet Dreams",
+  "item.moredisc.sweet_dreams.desc": "Alexion300 - Sweet Dreams (noteblock)",
+
+  "item.moredisc.tetris": "Tetris 99",
+  "item.moredisc.tetris.desc": "Alexion300 - Tetris 99 Theme (noteblock)",
+
+  "item.moredisc.we_are_the_number_one": "We Are The Number One",
+  "item.moredisc.we_are_the_number_one.desc": "Alexion300 - We Are The Number One (noteblock)",
+
+  "item.moredisc.what_love_k": "What is love K?",
+  "item.moredisc.what_love_k.desc": "Alexion300 - What is love K? (noteblock)",
+
+  "item.moredisc.why_do_i": "Why do I?",
+  "item.moredisc.why_do_i.desc": "Unknown Brain - Why do I?",
+
+  "item.moredisc.vinyl": "Morceaux de vinyle",
+  "item.moredisc.blank_disc": "Disque vide",
+  "item.moredisc.gfbook_1": "Livre 1 de Gravity Falls",
+  "item.moredisc.gfbook_2": "Livre 2 de Gravity Falls",
+  "item.moredisc.gfbook_3": "Livre 3 de Gravity Falls",
+
+  "itemGroup.moredisc": "More Discs",
+
+  "advancements.moredisc.root.title": "More Discs",
+  "advancements.moredisc.root.description": "Le monde est plein de musiques !",
+
+  "advancements.moredisc.gfbook_1.title": "Livre 1",
+  "advancements.moredisc.gfbook_1.description": "Obtenez le livre 1 de Gravity Falls.",
+
+  "advancements.moredisc.gfbook_2.title": "Livre 2",
+  "advancements.moredisc.gfbook_2.description": "Obtenez le livre 2 de Gravity Falls.",
+
+  "advancements.moredisc.gfbook_3.title": "Livre 3",
+  "advancements.moredisc.gfbook_3.description": "Obtenez le livre 3 de Gravity Falls.",
+
+  "advancements.moredisc.gravity_falls.title": "Gravity Falls",
+  "advancements.moredisc.gravity_falls.description": "Fabriquez le disque Gravity Falls.",
+
+  "advancements.moredisc.all_discs.title": "Tout pour les musiques",
+  "advancements.moredisc.all_discs.description": "Obtenez tout les disques de musique de More Discs."
+}

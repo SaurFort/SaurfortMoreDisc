@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " P ",
+    "ADB",
+    " C "
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:porkchop"
+    },
+    "A": {
+      "item": "moredisc:gfbook_1"
+    },
+    "B": {
+      "item": "moredisc:gfbook_2"
+    },
+    "C": {
+      "item": "moredisc:gfbook_3"
+    },
+    "D": {
+      "item": "moredisc:blank_disc"
+    }
+  },
+  "result": {
+    "item": "moredisc:gravity_falls"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "moredisc:we_are_the_number_one"
+    ]
+  },
+  "criteria": {
+    "has_disc": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "moredisc:blank_disc"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "moredisc:we_are_the_number_one"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_disc",
+      "has_the_recipe"
+    ]
+  ]
+}

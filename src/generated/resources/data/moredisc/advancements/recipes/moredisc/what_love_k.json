@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "moredisc:what_love_k"
+    ]
+  },
+  "criteria": {
+    "has_disc": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "moredisc:somebody_like_me"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "moredisc:what_love_k"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_disc",
+      "has_the_recipe"
+    ]
+  ]
+}

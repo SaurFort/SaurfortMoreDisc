@@ -16,7 +16,7 @@ import java.util.function.Supplier;
 public class ModItem {
     public static final DeferredRegister<Item> DISC = DeferredRegister.create(ForgeRegistries.ITEMS, Reference.MOD_ID);
 
-    public static final RegistryObject<Item> BOSUN_BILL = DISC.register("bosun_bill", () -> new MusicDiscItem(4, ModMusics.BOSUN_BILL, new Item.Properties().tab(ModTabs.MoreDisc).stacksTo(1).rarity(Rarity.RARE)));
+    public static final RegistryObject<Item> BOSUN_BILL = DISC.register("bosun_bill", () -> new MusicDiscItem(4, ModMusics.BOSUN_BILL, new Item.Properties().tab(ModTabs.MoreDisc).stacksTo(1).rarity(Rarity.EPIC)));
     public static final RegistryObject<Item> BOT_FIGHT = DISC.register("bot_fight", () -> new MusicDiscItem(4, ModMusics.BOT_FIGHT, new Item.Properties().tab(ModTabs.MoreDisc).stacksTo(1).rarity(Rarity.RARE)));
     public static final RegistryObject<Item> DARKNESS = DISC.register("darkness", () -> new MusicDiscItem(4, ModMusics.DARKNESS, new Item.Properties().tab(ModTabs.MoreDisc).stacksTo(1).rarity(Rarity.RARE)));
     public static final RegistryObject<Item> GRAVITY_FALLS = DISC.register("gravity_falls", () -> new MusicDiscItem(5, ModMusics.GRAVITY_FALLS, new Item.Properties().tab(ModTabs.MoreDisc).stacksTo(1).rarity(Rarity.EPIC)));

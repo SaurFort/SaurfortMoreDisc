@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " I ",
+    "SBS",
+    " I "
+  ],
+  "key": {
+    "B": {
+      "item": "moredisc:blank_disc"
+    },
+    "S": {
+      "item": "minecraft:iron_sword"
+    },
+    "I": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "result": {
+    "item": "moredisc:bot_fight"
+  }
+}

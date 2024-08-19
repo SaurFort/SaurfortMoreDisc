@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "moredisc:vinyl"
+    },
+    "title": {
+      "translate": "advancements.moredisc.root.title"
+    },
+    "description": {
+      "translate": "advancements.moredisc.root.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "moredisc:textures/gui/advancements/background/background.png"
+  },
+  "criteria": {
+    "obtain_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "moredisc:blank_disc"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

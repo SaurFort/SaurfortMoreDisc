@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B B",
+    "BS ",
+    "B B"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:black_concrete"
+    },
+    "S": {
+      "item": "moredisc:somebody_like_me"
+    }
+  },
+  "result": {
+    "item": "moredisc:what_love_k"
+  }
+}

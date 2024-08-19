@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RHR",
+    "RDR",
+    " R "
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:red_concrete"
+    },
+    "H": {
+      "tag": "forge:heads"
+    },
+    "D": {
+      "item": "moredisc:blank_disc"
+    }
+  },
+  "result": {
+    "item": "moredisc:somebody_like_me"
+  }
+}

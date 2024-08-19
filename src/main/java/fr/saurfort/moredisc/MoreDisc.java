@@ -3,6 +3,8 @@ package fr.saurfort.moredisc;
 import fr.saurfort.moredisc.item.ModItem;
 import fr.saurfort.moredisc.item.ModItemCraft;
 import fr.saurfort.moredisc.sound.ModMusics;
+import net.minecraft.data.DataGenerator;
+import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -28,7 +30,7 @@ public class MoreDisc {
     }
 
     private void onCommonSetup(FMLCommonSetupEvent event) {
-        LOGGER.info("Thanks for playing with SaurFort's MoreDiscs on server!");
+        LOGGER.info("Thanks for playing with SaurFort's MoreDiscs on your server!");
     }
 
     private void onClientSetup(FMLCommonSetupEvent event) {
@@ -36,6 +38,7 @@ public class MoreDisc {
     }
 
     private void onGatherData(GatherDataEvent event) {
-
+        DataGenerator gen = event.getGenerator();
+        ExistingFileHelper existingFileHelper = event.getExistingFileHelper();
     }
 }

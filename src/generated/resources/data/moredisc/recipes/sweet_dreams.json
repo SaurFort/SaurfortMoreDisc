@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "moredisc:blank_disc"
+    },
+    {
+      "item": "minecraft:white_bed"
+    },
+    {
+      "item": "minecraft:phantom_membrane"
+    }
+  ],
+  "result": {
+    "item": "moredisc:sweet_dreams"
+  }
+}

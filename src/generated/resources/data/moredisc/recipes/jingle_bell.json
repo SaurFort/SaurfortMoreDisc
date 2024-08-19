@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    "SDS",
+    " B "
+  ],
+  "key": {
+    "D": {
+      "item": "moredisc:blank_disc"
+    },
+    "S": {
+      "item": "minecraft:spruce_sapling"
+    },
+    "B": {
+      "item": "minecraft:sweet_berries"
+    }
+  },
+  "result": {
+    "item": "moredisc:jingle_bell"
+  }
+}
