@@ -14,10 +14,10 @@ import net.minecraftforge.registries.ForgeRegistries;
 import javax.annotation.Nonnull;
 import java.util.List;
 
-public class GravityFallsBookVillageLootModifier extends LootModifier {
+public class GravityFallsBookVillageTempleLootModifier extends LootModifier {
     private final Item addition;
 
-    protected GravityFallsBookVillageLootModifier(ILootCondition[] conditionsIn, Item addition) {
+    protected GravityFallsBookVillageTempleLootModifier(ILootCondition[] conditionsIn, Item addition) {
         super(conditionsIn);
         this.addition = addition;
     }
@@ -25,22 +25,22 @@ public class GravityFallsBookVillageLootModifier extends LootModifier {
     @Nonnull
     @Override
     protected List<ItemStack> doApply(List<ItemStack> generatedLoot, LootContext context) {
-        if(context.getRandom().nextFloat() > 0.95) {
+        if(context.getRandom().nextFloat() > 0.92) {
             generatedLoot.add(new ItemStack(addition, 1));
         }
         return generatedLoot;
     }
 
-    public static class Serializer extends GlobalLootModifierSerializer<GravityFallsBookVillageLootModifier> {
+    public static class Serializer extends GlobalLootModifierSerializer<GravityFallsBookVillageTempleLootModifier> {
         @Override
-        public GravityFallsBookVillageLootModifier read(ResourceLocation location, JsonObject object, ILootCondition[] conditionsIn) {
+        public GravityFallsBookVillageTempleLootModifier read(ResourceLocation location, JsonObject object, ILootCondition[] conditionsIn) {
             Item addition = ForgeRegistries.ITEMS.getValue(
                     new ResourceLocation(JSONUtils.getAsString(object, "addition")));
-            return new GravityFallsBookVillageLootModifier(conditionsIn, addition);
+            return new GravityFallsBookVillageTempleLootModifier(conditionsIn, addition);
         }
 
         @Override
-        public JsonObject write(GravityFallsBookVillageLootModifier instance) {
+        public JsonObject write(GravityFallsBookVillageTempleLootModifier instance) {
             JsonObject json = makeConditions(instance.conditions);
             json.addProperty("addition", ForgeRegistries.ITEMS.getKey(instance.addition).toString());
             return json;

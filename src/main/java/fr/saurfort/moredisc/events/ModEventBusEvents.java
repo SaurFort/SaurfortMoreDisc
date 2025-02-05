@@ -15,9 +15,9 @@ public class ModEventBusEvents {
     @SubscribeEvent
     public static void registerModifierSerializers(@Nonnull final RegistryEvent.Register<GlobalLootModifierSerializer<?>> event) {
         event.getRegistry().registerAll(
-                new GravityFallsBookMansionLootModifier.Serializer().setRegistryName(new ResourceLocation(Reference.MOD_ID, "gfbook_1_spawn_in_manor")),
+                new GravityFallsBookMansionLootModifier.Serializer().setRegistryName(new ResourceLocation(Reference.MOD_ID, "gfbook_1_spawn_in_mansion")),
                 new GravityFallsBookPillagerOutpostLootModifier.Serializer().setRegistryName(new ResourceLocation(Reference.MOD_ID, "gfbook_1_spawn_in_pillager_outpost")),
-                new GravityFallsBookVillageLootModifier.Serializer().setRegistryName(new ResourceLocation(Reference.MOD_ID, "gfbook_1_spawn_in_village")),
+                new GravityFallsBookVillageTempleLootModifier.Serializer().setRegistryName(new ResourceLocation(Reference.MOD_ID, "gfbook_1_spawn_in_village_temple")),
                 new GravityFallsBookBastionTreasureLootModifier.Serializer().setRegistryName(new ResourceLocation(Reference.MOD_ID, "gfbook_2_spawn_in_bastion_treasure")),
                 new GravityFallsBookNetherBridgeLootModifier.Serializer().setRegistryName(new ResourceLocation(Reference.MOD_ID, "gfbook_2_spawn_in_nether_bridge")),
                 new GravityFallsBookEndCityLootModifier.Serializer().setRegistryName(new ResourceLocation(Reference.MOD_ID, "gfbook_3_spawn_in_end_city")),

@@ -25,7 +25,7 @@ public class GravityFallsBookEndCityLootModifier extends LootModifier {
     @Nonnull
     @Override
     protected List<ItemStack> doApply(List<ItemStack> generatedLoot, LootContext context) {
-        if(context.getRandom().nextFloat() > 0.90) {
+        if(context.getRandom().nextFloat() > 0.85) {
             generatedLoot.add(new ItemStack(addition, 1));
         }
         return generatedLoot;

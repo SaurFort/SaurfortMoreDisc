@@ -1,9 +1,9 @@
 {
   "replace": false,
   "entries": [
-    "moredisc:gfbook_1_spawn_in_manor",
+    "moredisc:gfbook_1_spawn_in_mansion",
     "moredisc:gfbook_1_spawn_in_pillager_outpost",
-    "moredisc:gfbook_1_spawn_in_village",
+    "moredisc:gfbook_1_spawn_in_village_temple",
     "moredisc:gfbook_2_spawn_in_bastion_treasure",
     "moredisc:gfbook_2_spawn_in_nether_bridge",
     "moredisc:gfbook_3_spawn_in_end_city",
