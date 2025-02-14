@@ -62,24 +62,6 @@
       }
     ]
   },
-  "disc.minecon_22": {
-    "sounds": [
-      {
-        "name": "moredisc:minecon_2022",
-        "volume": 0.50,
-        "stream": true
-      }
-    ]
-  },
-    "disc.one_trillion": {
-      "sounds": [
-        {
-          "name": "moredisc:one_trillion",
-          "volume": 0.50,
-          "stream": true
-        }
-      ]
-  },
   "disc.simpson": {
     "sounds": [
       {
@@ -125,10 +107,10 @@
       }
     ]
   },
-  "disc.we_are_one": {
+  "disc.we_are_the_number_one": {
     "sounds": [
       {
-        "name": "moredisc:we_are_one",
+        "name": "moredisc:we_are_the_number_one",
         "volume": 0.50,
         "stream": true
       }

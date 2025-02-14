@@ -1,0 +1,30 @@
+{
+  "parent": "moredisc:gravity_falls_book1",
+  "display": {
+    "icon": {
+      "item": "moredisc:gfbook_2"
+    },
+    "title": {
+      "translate": "advancements.moredisc.gfbook_2.title"
+    },
+    "description": {
+      "translate": "advancements.moredisc.gfbook_2.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain_book_2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "moredisc:gfbook_2"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -73,24 +73,10 @@ public class RecipeGenerator extends RecipeProvider {
                 .unlockedBy("has_disc", has(ModItemCraft.BLANK_DISC.get()))
                 .save(consumer);
 
-
-
-        ShapelessRecipeBuilder.shapeless(ModItem.MINECON_22.get())
-                .requires(ModItemCraft.BLANK_DISC.get())
-                .requires(Items.RED_DYE)
-                .unlockedBy("has_disc", has(ModItemCraft.BLANK_DISC.get()))
-                .save(consumer);
-
         ShapelessRecipeBuilder.shapeless(ModItem.IM_BLUE.get())
                 .requires(ModItemCraft.BLANK_DISC.get())
                 .requires(Blocks.BLUE_CONCRETE)
                 .requires(Blocks.CYAN_CONCRETE)
-                .unlockedBy("has_disc", has(ModItemCraft.BLANK_DISC.get()))
-                .save(consumer);
-
-        ShapelessRecipeBuilder.shapeless(ModItem.ONE_TRILLION.get())
-                .requires(ModItemCraft.BLANK_DISC.get())
-                .requires(Blocks.GRASS_BLOCK)
                 .unlockedBy("has_disc", has(ModItemCraft.BLANK_DISC.get()))
                 .save(consumer);
 

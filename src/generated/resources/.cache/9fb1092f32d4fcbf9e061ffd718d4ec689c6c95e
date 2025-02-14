@@ -1,4 +1,4 @@
-// 1.19.2	2023-10-29T23:30:20.5949532	Recipes
+// 1.19.2	2025-02-05T14:04:29.2192494	Recipes
 066aba9f684d66c5234f171d3821ce92a0228259 data/minecraft/advancements/recipes/decorations/player_head.json
 4440fa7151a8ee544a906e4c3ea40c960082b493 data/minecraft/advancements/recipes/decorations/zombie_head.json
 2f1296a1f2dd49e85210a573483400daa9481047 data/minecraft/recipes/player_head.json
@@ -12,14 +12,12 @@ f355089d128ce6bd31bc231f818c3c95f22c7105 data/moredisc/advancements/recipes/more
 4cac50d7f2e9c2d312849ea390c805a64917cd8f data/moredisc/advancements/recipes/moredisc/im_blue.json
 83f676fbbfc1cd6db92645d4fc99b6b91822120d data/moredisc/advancements/recipes/moredisc/jingle_bell.json
 f40cfeffd94d304927f652cd8166bcf153e0b1a3 data/moredisc/advancements/recipes/moredisc/mario_theme_song.json
-bc6b0cfe73ff529eb632ca4d93bdfa0eeca65124 data/moredisc/advancements/recipes/moredisc/minecon_22.json
-e4fbf84259a6bf2d7473452c1fee280b6a008c31 data/moredisc/advancements/recipes/moredisc/one_trillion.json
 0b2e5b3002e7d901007d92dd3068f91a8b161af2 data/moredisc/advancements/recipes/moredisc/simpson.json
 0bb24e8c296111145b24b75d3b34477b119fd4f1 data/moredisc/advancements/recipes/moredisc/somebody_like_me.json
 0d8e0f2814841cdb163b40f7ea8a322baf144425 data/moredisc/advancements/recipes/moredisc/sweet_dreams.json
 5733c16cce1ac5d1690db1b9b608ac4be78ae747 data/moredisc/advancements/recipes/moredisc/tetris.json
 1151e8a7f2850fbe9f669327513590c7254cb83c data/moredisc/advancements/recipes/moredisc/the_storm.json
-9bccb26e71dc5d7cd080dcf230464fa92ef9173a data/moredisc/advancements/recipes/moredisc/we_are_one.json
+d49c39efda36d00ab4fa7f8c703fd3fc0d04b746 data/moredisc/advancements/recipes/moredisc/we_are_the_number_one.json
 da98a964bace2ee38dd29baec722d2422bb038b0 data/moredisc/advancements/recipes/moredisc/what_love_k.json
 5a19313600a8900e5623ef49a1697307aa6f9e18 data/moredisc/advancements/recipes/moredisc/why_do_i.json
 f2e6aeed659ddd9a8e29edbd4346e6155da775e0 data/moredisc/advancements/recipes/search/book_1.json
@@ -36,14 +34,12 @@ da130c4d4f620f60d177c140b36f93ad0eba3b73 data/moredisc/advancements/recipes/sear
 7fe0209a8b32f451a725d5194409475212becead data/moredisc/recipes/im_blue.json
 8015a7c2b383ecd3bd6e22a8681d67b81b1f5ea9 data/moredisc/recipes/jingle_bell.json
 60d970b19944b42a7aac59098d5e9b62eb7cf557 data/moredisc/recipes/mario_theme_song.json
-392234b435c312a91297a6c0e39a58b3184f1de8 data/moredisc/recipes/minecon_22.json
-c3de4236805cb6f1210ec4c00f70a85933eea21a data/moredisc/recipes/one_trillion.json
 d32040e4de54b91ad4e9884e59dc3b62e5a72400 data/moredisc/recipes/simpson.json
 042e1fca67a15b5a7d6f33671955d0b014f54519 data/moredisc/recipes/somebody_like_me.json
 bca11b3b1a6340593f45ab3e1f813294ab0acd62 data/moredisc/recipes/sweet_dreams.json
 a55dbecae6bc91319bde677624efd58aa68eba5e data/moredisc/recipes/tetris.json
 41f89ceaa342d2dd0cdd20417e40d0935e64e5c3 data/moredisc/recipes/the_storm.json
 95fa65727921f027604d9a9bbccaa7dde57b823f data/moredisc/recipes/vinyl.json
-88254e11b20652cb29df583e691baa182cef876e data/moredisc/recipes/we_are_one.json
+9c9f88cee097e7186797ae2572024413d52950cc data/moredisc/recipes/we_are_the_number_one.json
 a6e178a1a5995d066cc196747dbc215c7c0682a1 data/moredisc/recipes/what_love_k.json
 fe12ec608b24a9cc5c3db877f37924b659f10fc9 data/moredisc/recipes/why_do_i.json

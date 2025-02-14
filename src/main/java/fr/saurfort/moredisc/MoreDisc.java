@@ -2,6 +2,7 @@ package fr.saurfort.moredisc;
 
 import fr.saurfort.moredisc.item.ModItem;
 import fr.saurfort.moredisc.item.ModItemCraft;
+import fr.saurfort.moredisc.loot.ModLootModifier;
 import fr.saurfort.moredisc.sound.ModSounds;
 import net.minecraft.data.DataGenerator;
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -24,6 +25,7 @@ public class MoreDisc {
 
         ModItem.register(eventBus);
         ModItemCraft.register(eventBus);
+        ModLootModifier.register(eventBus);
         ModSounds.register(eventBus);
 
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::onCommonSetup);

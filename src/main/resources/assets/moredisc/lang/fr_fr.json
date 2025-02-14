@@ -23,12 +23,6 @@
   "item.moredisc.the_storm": "La tempête",
   "item.moredisc.the_storm.desc": "TheFatRat & Maisy Kay - The Storm",
 
-  "item.moredisc.minecon_22": "Minecraft direct 2022",
-  "item.moredisc.minecon_22.desc": "Minecraft - Minecraft Live 2022",
-
-  "item.moredisc.one_trillion": "Un trillion de vues",
-  "item.moredisc.one_trillion.desc": "YouTube - One trillion views",
-
   "item.moredisc.simpson": "Simpson",
   "item.moredisc.simpson.desc": "Alexion300 - Simpson (noteblock)",
 
@@ -41,8 +35,8 @@
   "item.moredisc.tetris": "Tetris 99",
   "item.moredisc.tetris.desc": "Alexion300 - Tetris 99 Theme (noteblock)",
 
-  "item.moredisc.we_are_one": "Nous Sommes les Numéros Un",
-  "item.moredisc.we_are_one.desc": "Alexion300 - We Are the Number One (noteblock)",
+  "item.moredisc.we_are_the_number_one": "Nous Sommes les Numéros Un",
+  "item.moredisc.we_are_the_number_one.desc": "Alexion300 - We Are the Number One (noteblock)",
 
   "item.moredisc.what_love_k": "Qu'est-ce que l'amour K ?",
   "item.moredisc.what_love_k.desc": "Alexion300 - What is love K? (noteblock)",
@@ -57,5 +51,23 @@
   "item.moredisc.book_2": "Livre 2 de Gravity Falls",
   "item.moredisc.book_3": "Livre 3 de Gravity Falls",
 
-  "itemGroup.moredisc": "MoreDisc"
+  "itemGroup.moredisc": "MoreDisc",
+
+  "advancements.moredisc.root.title": "More Discs",
+  "advancements.moredisc.root.description": "Le monde est plein de musiques !",
+
+  "advancements.moredisc.gfbook_1.title": "Livre 1",
+  "advancements.moredisc.gfbook_1.description": "Obtenez le livre 1 de Gravity Falls.",
+
+  "advancements.moredisc.gfbook_2.title": "Livre 2",
+  "advancements.moredisc.gfbook_2.description": "Obtenez le livre 2 de Gravity Falls.",
+
+  "advancements.moredisc.gfbook_3.title": "Livre 3",
+  "advancements.moredisc.gfbook_3.description": "Obtenez le livre 3 de Gravity Falls.",
+
+  "advancements.moredisc.gravity_falls.title": "Gravity Falls",
+  "advancements.moredisc.gravity_falls.description": "Fabriquez le disque Gravity Falls.",
+
+  "advancements.moredisc.all_discs.title": "Tout pour les musiques",
+  "advancements.moredisc.all_discs.description": "Obtenez tout les disques de musique de More Discs."
 }

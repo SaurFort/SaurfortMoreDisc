@@ -1,0 +1,17 @@
+{
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:entities/skeleton"
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "killer",
+      "predicate": {
+        "type": "minecraft:creeper"
+      }
+    }
+  ],
+  "addition": "minecraft:skeleton_skull",
+  "probability": 0.10
+}

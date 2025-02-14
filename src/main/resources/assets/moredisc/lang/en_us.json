@@ -23,12 +23,6 @@
   "item.moredisc.the_storm": "The Storm",
   "item.moredisc.the_storm.desc": "TheFatRat & Maisy Kay - The Storm",
 
-  "item.moredisc.minecon_22": "Minecraft Live 2022",
-  "item.moredisc.minecon_22.desc": "Minecraft - Minecraft Live 2022",
-
-  "item.moredisc.one_trillion": "One trillion views",
-  "item.moredisc.one_trillion.desc": "YouTube - One trillion views",
-
   "item.moredisc.simpson": "Simpson",
   "item.moredisc.simpson.desc": "Alexion300 - Simpson (noteblock)",
 
@@ -41,8 +35,8 @@
   "item.moredisc.tetris": "Tetris 99",
   "item.moredisc.tetris.desc": "Alexion300 - Tetris 99 Theme (noteblock)",
 
-  "item.moredisc.we_are_one": "We Are The Number One",
-  "item.moredisc.we_are_one.desc": "Alexion300 - We Are The Number One (noteblock)",
+  "item.moredisc.we_are_the_number_one": "We Are The Number One",
+  "item.moredisc.we_are_the_number_one.desc": "Alexion300 - We Are The Number One (noteblock)",
 
   "item.moredisc.what_love_k": "What is love K?",
   "item.moredisc.what_love_k.desc": "Alexion300 - What is love K? (noteblock)",
@@ -57,5 +51,23 @@
   "item.moredisc.book_2": "Gravity Falls Book 2",
   "item.moredisc.book_3": "Gravity Falls Book 3",
 
-  "itemGroup.moredisc": "MoreDisc"
+  "itemGroup.moredisc": "MoreDisc",
+
+  "advancements.moredisc.root.title": "More Discs",
+  "advancements.moredisc.root.description": "The world is full of musics!",
+
+  "advancements.moredisc.gfbook_1.title": "Book 1",
+  "advancements.moredisc.gfbook_1.description": "Obtain the book 1 from Gravity Falls.",
+
+  "advancements.moredisc.gfbook_2.title": "Book 2",
+  "advancements.moredisc.gfbook_2.description": "Obtain the book 2 from Gravity Falls.",
+
+  "advancements.moredisc.gfbook_3.title": "Book 3",
+  "advancements.moredisc.gfbook_3.description": "Obtain the book 3 from Gravity Falls.",
+
+  "advancements.moredisc.gravity_falls.title": "Gravity Falls",
+  "advancements.moredisc.gravity_falls.description": "Craft the disc Gravity Falls.",
+
+  "advancements.moredisc.all_discs.title": "All for musics",
+  "advancements.moredisc.all_discs.description": "Obtain all musics discs from More Discs."
 }
