@@ -1,10 +1,11 @@
 {
+  "type": "moredisc:add_item",
   "conditions": [
     {
       "condition": "forge:loot_table_id",
       "loot_table_id": "minecraft:chests/village/village_temple"
     }
   ],
-  "addition": "moredisc:gfbook_1",
+  "addition": "moredisc:book_1",
   "probability": 0.08
 }

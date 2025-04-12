@@ -1,4 +1,5 @@
 {
+  "type": "moredisc:add_item",
   "conditions": [
     {
       "condition": "forge:loot_table_id",
@@ -13,5 +14,5 @@
     }
   ],
   "addition": "minecraft:skeleton_skull",
-  "probability": 0.10
+  "probability": 1
 }

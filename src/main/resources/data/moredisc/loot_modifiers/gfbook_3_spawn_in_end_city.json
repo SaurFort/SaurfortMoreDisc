@@ -1,10 +1,11 @@
 {
+  "type": "moredisc:add_item",
   "conditions": [
     {
       "condition": "forge:loot_table_id",
       "loot_table_id": "minecraft:chests/end_city_treasure"
     }
   ],
-  "addition": "moredisc:gfbook_3",
+  "addition": "moredisc:book_3",
   "probability": 0.15
 }
