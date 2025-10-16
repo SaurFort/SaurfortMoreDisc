@@ -1,0 +1,16 @@
+{
+  "type":  "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "moredisc:blank_disc"
+    },
+    {
+      "item": "minecraft:lightning_rod"
+    }
+  ],
+  "result": {
+    "item": "moredisc:the_storm",
+    "count": 1
+  }
+}

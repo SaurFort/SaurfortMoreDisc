@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "RHR",
+    "RDR",
+    " R "
+  ],
+  "key": {
+    "D": {
+      "item": "moredisc:blank_disc"
+    },
+    "H": {
+      "item": "minecraft:player_head"
+    },
+    "R": {
+      "item": "minecraft:red_concrete"
+    }
+  },
+  "result": {
+    "item": "moredisc:somebody_like_me",
+    "count": 1
+  }
+}

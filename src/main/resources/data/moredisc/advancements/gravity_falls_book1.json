@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "moredisc:book_1"
+    },
+    "title": {
+      "translate": "advancements.moredisc.gfbook_1.title"
+    },
+    "description": {
+      "translate": "advancements.moredisc.gfbook_1.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "moredisc:root",
+  "criteria": {
+    "obtain_book_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "moredisc:book_1"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "obtain_book_1"
+    ]
+  ]
+}

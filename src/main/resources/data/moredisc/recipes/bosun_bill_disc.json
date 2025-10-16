@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " SL",
+    "WDF",
+    " B "
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:spruce_boat"
+    },
+    "D": {
+      "item": "moredisc:blank_disc"
+    },
+    "F": {
+      "item": "minecraft:feather"
+    },
+    "L": {
+      "item": "minecraft:black_wool"
+    },
+    "S": {
+      "item": "minecraft:skeleton_skull"
+    },
+    "W": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "result": {
+    "item": "moredisc:bosun_bill",
+    "count": 1
+  }
+}

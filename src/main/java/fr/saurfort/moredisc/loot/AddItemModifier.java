@@ -16,32 +16,35 @@ import org.jetbrains.annotations.NotNull;
 import java.util.function.Supplier;
 
 public class AddItemModifier extends LootModifier {
-    private final Item addition;
+    public static final Supplier<Codec<AddItemModifier>> CODEC = Suppliers.memoize(()
+            -> RecordCodecBuilder.create(inst -> codecStart(inst)
+            .and(ForgeRegistries.ITEMS.getCodec().fieldOf("addition").forGetter(m -> m.item))
+            .and(Codec.FLOAT.fieldOf("probability").forGetter(m -> m.probability))
+            .apply(inst, AddItemModifier::new)));
+    private final Item item;
     private final float probability;
 
-    public static final Codec<AddItemModifier> CODEC = RecordCodecBuilder.create(inst -> codecStart(inst)
-            .and(ForgeRegistries.ITEMS.getCodec().fieldOf("addition").forGetter(m -> m.addition))
-            .and(Codec.FLOAT.fieldOf("probability").forGetter(m -> m.probability))
-            .apply(inst, AddItemModifier::new)
-    );
-
-    protected AddItemModifier(LootItemCondition[] conditionsIn, Item addition, float probability) {
+    /**
+     * Constructs a LootModifier.
+     *
+     * @param conditionsIn the ILootConditions that need to be matched before the loot is modified.
+     */
+    protected AddItemModifier(LootItemCondition[] conditionsIn, Item item, float probability) {
         super(conditionsIn);
-        this.addition = addition;
+        this.item = item;
         this.probability = probability;
     }
 
     @Override
     protected @NotNull ObjectArrayList<ItemStack> doApply(ObjectArrayList<ItemStack> generatedLoot, LootContext context) {
         if (context.getRandom().nextFloat() < probability) {
-            generatedLoot.add(new ItemStack(addition));
+            generatedLoot.add(new ItemStack(item, 1));
         }
-
         return generatedLoot;
     }
 
     @Override
     public Codec<? extends IGlobalLootModifier> codec() {
-        return null;
+        return CODEC.get();
     }
 }

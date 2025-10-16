@@ -1,0 +1,19 @@
+{
+  "type":  "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "moredisc:blank_disc"
+    },
+    {
+      "item": "minecraft:blue_concrete"
+    },
+    {
+      "item": "minecraft:cyan_concrete"
+    }
+  ],
+  "result": {
+    "item": "moredisc:im_blue",
+    "count": 1
+  }
+}

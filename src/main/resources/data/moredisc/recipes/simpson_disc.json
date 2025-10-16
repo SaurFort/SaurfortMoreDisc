@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " S ",
+    "PDC"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:cookie"
+    },
+    "D": {
+      "item": "moredisc:blank_disc"
+    },
+    "P": {
+      "item": "minecraft:pumpkin_pie"
+    },
+    "S": {
+      "item": "minecraft:cake"
+    }
+  },
+  "result": {
+    "item": "moredisc:simpson",
+    "count": 1
+  }
+}

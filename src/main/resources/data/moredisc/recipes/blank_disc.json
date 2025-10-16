@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " V ",
+    "VIV",
+    " V "
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "V": {
+      "item": "moredisc:vinyl"
+    }
+  },
+  "result": {
+    "item": "moredisc:blank_disc",
+    "count": 1
+  }
+}

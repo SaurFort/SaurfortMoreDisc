@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " I ",
+    "SDS",
+    " I "
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:spruce_boat"
+    },
+    "I": {
+      "item": "minecraft:iron_block"
+    },
+    "S": {
+      "item": "minecraft:iron_sword"
+    }
+  },
+  "result": {
+    "item": "moredisc:bot_fight",
+    "count": 1
+  }
+}

@@ -5,8 +5,8 @@
   "item.moredisc.bot_fight": "Bot Fight",
   "item.moredisc.bot_fight.desc": "Everen Maxwell - Bot Fight",
 
-  "item.moredisc.mario_theme_song": "Mario Theme",
-  "item.moredisc.mario_theme_song.desc": "Alexion300 - Mario Theme (noteblock)",
+  "item.moredisc.mario_theme": "Mario Theme",
+  "item.moredisc.mario_theme.desc": "Alexion300 - Mario Theme (noteblock)",
 
   "item.moredisc.gravity_falls": "Gravity Falls",
   "item.moredisc.gravity_falls.desc": "Alexion300 - Gravity Falls (noteblock)",
@@ -46,7 +46,7 @@
 
 
   "item.moredisc.vinyl": "Vinyl part",
-  "item.moredisc.blank_disc": "Empty disc",
+  "item.moredisc.blank_disc": "Blank disc",
   "item.moredisc.book_1": "Gravity Falls Book 1",
   "item.moredisc.book_2": "Gravity Falls Book 2",
   "item.moredisc.book_3": "Gravity Falls Book 3",

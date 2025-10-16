@@ -1,15 +1,14 @@
 package fr.saurfort.moredisc.sound;
 
-import fr.saurfort.moredisc.Reference;
+import fr.saurfort.moredisc.MoreDisc;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.sounds.SoundEvent;
-import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
 public class ModSounds {
-    private static final DeferredRegister<SoundEvent> SOUNDS = DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, Reference.MOD_ID);
+    public static final DeferredRegister<SoundEvent> SOUNDS = DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, MoreDisc.MODID);
 
     public static final RegistryObject<SoundEvent> BOSUN_BILL = registerSound("disc.bosun_bill");
     public static final RegistryObject<SoundEvent> BOT_FIGHT = registerSound("disc.bot_fight");
@@ -27,11 +26,7 @@ public class ModSounds {
     public static final RegistryObject<SoundEvent> WHAT_LOVE_K = registerSound("disc.what_love_k");
     public static final RegistryObject<SoundEvent> WHY_DO_I = registerSound("disc.why_do_i");
 
-    public static void register(IEventBus eventBus) {
-        SOUNDS.register(eventBus);
-    }
-
     private static RegistryObject<SoundEvent> registerSound(String name) {
-        return SOUNDS.register(name, () -> new SoundEvent(new ResourceLocation(Reference.MOD_ID, name)));
+        return SOUNDS.register(name, () -> SoundEvent.createVariableRangeEvent(new ResourceLocation(MoreDisc.MODID, name)));
     }
 }
